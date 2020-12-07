@@ -18,6 +18,10 @@ class CalculationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        calculationLabel.layer.borderWidth = 2
+        calculationLabel.layer.borderColor = UIColor.red.cgColor
+        
+        
         selectedOperation = .Division
         switch selectedOperation {
         case .Addition:
@@ -62,16 +66,21 @@ class CalculationViewController: UIViewController {
         case .Multiplication:
             switch selectedDiffuculty {
             case .Easy:
+                randomVariableForMultiplication(min: 2, max: 10)
                 break
             case .Medium:
+                randomVariableForMultiplication(min: 10, max: 30)
                 break
             case .Hard:
+                randomVariableForMultiplication(min: 30, max: 50)
                 break
             case .Expert:
+                randomVariableForMultiplication(min: 50, max: 100)
                 break
             default:
                 print("")
             }
+            multiplicationFunc()
             break
         case .Division:
             switch selectedDiffuculty {
@@ -124,8 +133,9 @@ class CalculationViewController: UIViewController {
             num1 = temp
         }
     }
-    func randomVariableForMultiplication(){
-        
+    func randomVariableForMultiplication(min:Int, max:Int){
+        num1 = Int.random(in: min..<max)
+        num2 = Int.random(in: min..<max)
     }
 
     
