@@ -104,10 +104,8 @@ class CalculationViewController: UIViewController {
         while true {
             num1 = Int.random(in: min..<max)
             num2 = Int.random(in: min..<max)
-            if (num1!>num2!){
-                if (num1! % num2! == 0) {
-                    break
-                }
+            if ((num1!>num2!) && (num1! % num2! == 0) ){
+               break
             }
         }
     }
