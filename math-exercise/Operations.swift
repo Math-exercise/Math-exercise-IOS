@@ -11,6 +11,7 @@ enum Operations {
     case Subtraction
     case Multiplication
     case Division
+    case Mix
 }
 enum Diffuculty {
     case Easy
