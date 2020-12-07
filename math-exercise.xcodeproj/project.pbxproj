@@ -15,6 +15,9 @@
 		1352C052257E696E00A0E385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1352C050257E696E00A0E385 /* LaunchScreen.storyboard */; };
 		1352C05D257E696F00A0E385 /* math_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352C05C257E696F00A0E385 /* math_exerciseTests.swift */; };
 		1352C068257E696F00A0E385 /* math_exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352C067257E696F00A0E385 /* math_exerciseUITests.swift */; };
+		2107A1A8257E7199002AEF88 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107A1A7257E7199002AEF88 /* DifficultyViewController.swift */; };
+		2107A1AD257E726D002AEF88 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107A1AC257E726D002AEF88 /* CalculationViewController.swift */; };
+		2107A1B5257E7385002AEF88 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107A1B4257E7385002AEF88 /* Operations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1352C063257E696F00A0E385 /* math-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "math-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1352C067257E696F00A0E385 /* math_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = math_exerciseUITests.swift; sourceTree = "<group>"; };
 		1352C069257E696F00A0E385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2107A1A7257E7199002AEF88 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
+		2107A1AC257E726D002AEF88 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
+		2107A1B4257E7385002AEF88 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				1352C045257E696D00A0E385 /* AppDelegate.swift */,
 				1352C047257E696D00A0E385 /* SceneDelegate.swift */,
 				1352C049257E696D00A0E385 /* ViewController.swift */,
+				2107A1A7257E7199002AEF88 /* DifficultyViewController.swift */,
+				2107A1AC257E726D002AEF88 /* CalculationViewController.swift */,
+				2107A1B4257E7385002AEF88 /* Operations.swift */,
 				1352C04B257E696D00A0E385 /* Main.storyboard */,
 				1352C04E257E696E00A0E385 /* Assets.xcassets */,
 				1352C050257E696E00A0E385 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1352C04A257E696D00A0E385 /* ViewController.swift in Sources */,
+				2107A1AD257E726D002AEF88 /* CalculationViewController.swift in Sources */,
 				1352C046257E696D00A0E385 /* AppDelegate.swift in Sources */,
+				2107A1B5257E7385002AEF88 /* Operations.swift in Sources */,
 				1352C048257E696D00A0E385 /* SceneDelegate.swift in Sources */,
+				2107A1A8257E7199002AEF88 /* DifficultyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,13 +449,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BUHBT454W7;
+				DEVELOPMENT_TEAM = 4Q3JZC8T8R;
 				INFOPLIST_FILE = "math-exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lottiefiles.math-exercise";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.math-exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,13 +468,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BUHBT454W7;
+				DEVELOPMENT_TEAM = 4Q3JZC8T8R;
 				INFOPLIST_FILE = "math-exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lottiefiles.math-exercise";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.math-exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -7,7 +7,11 @@
 
 import UIKit
 
+var selectedOperation : Operations?
+var selectedDiffuculty : Diffuculty?
+
 class ViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
