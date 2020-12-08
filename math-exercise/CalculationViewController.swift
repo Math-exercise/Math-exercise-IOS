@@ -22,7 +22,8 @@ class CalculationViewController: UIViewController {
         calculationLabel.layer.borderColor = UIColor.red.cgColor
         
         
-        selectedOperation = .Division
+        selectedOperation = .Mix
+        
         switch selectedOperation {
         case .Addition:
             switch selectedDiffuculty {
@@ -100,6 +101,103 @@ class CalculationViewController: UIViewController {
                 print("")
             }
             divisionFunc()
+            break
+        // 1-Sum 2-Minus 3-Multiple 4-Division
+        case .Mix :
+            let randomOperation = Int.random(in: 1..<5)
+            switch selectedDiffuculty {
+            case .Easy:
+                switch randomOperation {
+                case 1:
+                    randomVariableForSum(min: 2, max: 20)
+                    sumFunc()
+                    break
+                case 2:
+                    randomVariableForSubstraction(min: 2, max: 20)
+                    subtractionFunc()
+                    break
+                case 3:
+                    randomVariableForMultiplication(min: 2, max: 10)
+                    multiplicationFunc()
+                    break
+                case 4:
+                    randomVariableForDivision(min: 50, max: 300)
+                    divisionFunc()
+                    break
+                default:
+                    print("")
+                }
+                break
+            case .Medium:
+                switch randomOperation {
+                case 1:
+                    randomVariableForSum(min: 2, max: 20)
+                    sumFunc()
+                    break
+                case 2:
+                    randomVariableForSubstraction(min: 2, max: 20)
+                    subtractionFunc()
+                    break
+                case 3:
+                    randomVariableForMultiplication(min: 2, max: 10)
+                    multiplicationFunc()
+                    break
+                case 4:
+                    randomVariableForDivision(min: 50, max: 300)
+                    divisionFunc()
+                    break
+                default:
+                    print("")
+                }
+                break
+            case .Hard:
+                switch randomOperation {
+                case 1:
+                    randomVariableForSum(min: 2, max: 20)
+                    sumFunc()
+                    break
+                case 2:
+                    randomVariableForSubstraction(min: 2, max: 20)
+                    subtractionFunc()
+                    break
+                case 3:
+                    randomVariableForMultiplication(min: 2, max: 10)
+                    multiplicationFunc()
+                    break
+                case 4:
+                    randomVariableForDivision(min: 50, max: 300)
+                    divisionFunc()
+                    break
+                default:
+                    print("")
+                }
+                break
+            case .Expert:
+                switch randomOperation {
+                case 1:
+                    randomVariableForSum(min: 2, max: 20)
+                    sumFunc()
+                    break
+                case 2:
+                    randomVariableForSubstraction(min: 2, max: 20)
+                    subtractionFunc()
+                    break
+                case 3:
+                    randomVariableForMultiplication(min: 2, max: 10)
+                    multiplicationFunc()
+                    break
+                case 4:
+                    randomVariableForDivision(min: 50, max: 300)
+                    divisionFunc()
+                    break
+                default:
+                    print("")
+                }
+                break
+            default:
+                print("")
+            }
+            
             break
         default:
             print("")
