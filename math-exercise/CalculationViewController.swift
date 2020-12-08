@@ -14,6 +14,8 @@ class CalculationViewController: UIViewController {
 
     //label
     @IBOutlet weak var calculationLabel: UILabel!
+    @IBOutlet weak var resultLabel: UILabel!
+    var checkClicking = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +23,6 @@ class CalculationViewController: UIViewController {
         calculationLabel.layer.borderWidth = 2
         calculationLabel.layer.borderColor = UIColor.red.cgColor
         
-        
-        selectedOperation = .Mix
         
         switch selectedOperation {
         case .Addition:
@@ -236,15 +236,14 @@ class CalculationViewController: UIViewController {
         num2 = Int.random(in: min..<max)
     }
 
-    
-    //sum func
     func sumFunc() {
         calculationLabel.text = "\(num1!) + \(num2!)"
     }
     
-    //division func
+    
     func divisionFunc(){
         calculationLabel.text = "\(num1!) / \(num2!)"
+        
     }
     
     // subtraction func
@@ -258,18 +257,145 @@ class CalculationViewController: UIViewController {
     }
     
     
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func oneButton(_ sender: Any) {
+        
+        if checkClicking
+        {
+            resultLabel.text = "1"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(1)"
+            
+        }
+        
     }
-    */
-
+    
+    @IBAction func twoButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "2"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(2)"
+            
+        }
+    }
+    
+    @IBAction func threeButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "3"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(3)"
+            
+        }
+    }
+    
+    @IBAction func fourButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "4"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(4)"
+            
+        }
+    }
+    
+    @IBAction func fiveButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "5"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(5)"
+            
+        }
+    }
+    
+    @IBAction func sixButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "6"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(6)"
+            
+        }
+    }
+    
+    @IBAction func sevenButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "7"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(7)"
+            
+        }
+    }
+    
+    @IBAction func eightButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "8"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(8)"
+        }
+    }
+    
+    @IBAction func nineButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "9"
+            checkClicking = false
+            
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(9)"
+        }
+    }
+    
+    @IBAction func zeroButton(_ sender: Any) {
+        if checkClicking
+        {
+            resultLabel.text = "0"
+            checkClicking = false
+        }
+        else
+        {
+            resultLabel.text = "\(String(describing: resultLabel.text!))\(0)"
+        }
+    }
+    
+    @IBAction func delButton(_ sender: Any) {
+        
+    }
+    
+    @IBAction func checkButton(_ sender: Any) {
+       
+    }
+    
+    
+    
+    
 }
