@@ -24,6 +24,7 @@ class CalculationViewController: UIViewController {
         calculationLabel.layer.borderColor = UIColor.red.cgColor
         
         
+
         switch selectedOperation {
         case .Addition:
             switch selectedDiffuculty {
@@ -271,6 +272,7 @@ class CalculationViewController: UIViewController {
         }
         
     }
+
     
     @IBAction func twoButton(_ sender: Any) {
         if checkClicking
@@ -298,6 +300,7 @@ class CalculationViewController: UIViewController {
         }
     }
     
+
     @IBAction func fourButton(_ sender: Any) {
         if checkClicking
         {
@@ -306,6 +309,7 @@ class CalculationViewController: UIViewController {
         }
         else
         {
+
             resultLabel.text = "\(String(describing: resultLabel.text!))\(4)"
             
         }
@@ -324,6 +328,7 @@ class CalculationViewController: UIViewController {
         }
     }
     
+
     @IBAction func sixButton(_ sender: Any) {
         if checkClicking
         {
