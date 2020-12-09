@@ -368,6 +368,14 @@
                                     <action selector="delButton:" destination="j79-iv-XTn" eventType="touchUpInside" id="Mys-Kx-2xv"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs8-7i-4BJ">
+                                <rect key="frame" x="330" y="108" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="nextQuestionButton:" destination="j79-iv-XTn" eventType="touchUpInside" id="GQ8-bb-6H2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UR6-Gl-rvu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
