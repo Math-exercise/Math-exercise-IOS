@@ -16,6 +16,7 @@ class CalculationViewController: UIViewController {
     @IBOutlet weak var calculationLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
     var checkClicking = true
+    var result : Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -239,22 +240,27 @@ class CalculationViewController: UIViewController {
 
     func sumFunc() {
         calculationLabel.text = "\(num1!) + \(num2!)"
+        result = num1! + num2!
+        
     }
     
     
     func divisionFunc(){
         calculationLabel.text = "\(num1!) / \(num2!)"
+        result = num1! / num2!
         
     }
     
     // subtraction func
     func subtractionFunc(){
         calculationLabel.text = "\(num1!) - \(num2!)"
+        result = num1! - num2!
     }
     
     //multiplication func
     func multiplicationFunc(){
         calculationLabel.text = "\(num1!) x \(num2!)"
+        result = num1! * num2!
     }
     
     
@@ -393,11 +399,25 @@ class CalculationViewController: UIViewController {
     }
     
     @IBAction func delButton(_ sender: Any) {
+        if resultLabel.text?.count != 0 && !checkClicking
+            {
+                resultLabel.text!.remove(at: resultLabel.text!.index(before: resultLabel.text!.endIndex))
+            }
+        
         
     }
     
     @IBAction func checkButton(_ sender: Any) {
-       
+        //resultLabel.text = String(trueResult)
+        
+        if resultLabel.text == String(result)
+        {
+            resultLabel.text = "SUCCESSFUL!!!"
+        }
+        else
+        {
+            resultLabel.text = ""
+        }
     }
     
     
