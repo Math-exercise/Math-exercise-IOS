@@ -59,12 +59,12 @@
 		1352C063257E696F00A0E385 /* math-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "math-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1352C067257E696F00A0E385 /* math_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = math_exerciseUITests.swift; sourceTree = "<group>"; };
 		1352C069257E696F00A0E385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		1F65657523502C4FD0DB57FC /* Pods-math-exercise-math-exerciseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-math-exercise-math-exerciseUITests.release.xcconfig"; path = "Target Support Files/Pods-math-exercise-math-exerciseUITests/Pods-math-exercise-math-exerciseUITests.release.xcconfig"; sourceTree = "<group>"; };
-=======
+
 		138DAA1F25838B8A00E6384F /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		138DAA2825839A4800E6384F /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
->>>>>>> eee5762a7359d1bc6c9f9f8766a17c75bb8be596
+
 		2107A1A7257E7199002AEF88 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
 		2107A1AC257E726D002AEF88 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		2107A1B4257E7385002AEF88 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };

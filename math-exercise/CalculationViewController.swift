@@ -31,7 +31,7 @@ class CalculationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        selectedDiffuculty = .Quiz
+     
         if (selectedDiffuculty == Diffuculty.Quiz) {
             nextButton.isHidden = true
         }
