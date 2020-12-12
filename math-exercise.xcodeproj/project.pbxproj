@@ -15,6 +15,8 @@
 		1352C052257E696E00A0E385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1352C050257E696E00A0E385 /* LaunchScreen.storyboard */; };
 		1352C05D257E696F00A0E385 /* math_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352C05C257E696F00A0E385 /* math_exerciseTests.swift */; };
 		1352C068257E696F00A0E385 /* math_exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352C067257E696F00A0E385 /* math_exerciseUITests.swift */; };
+		138DAA2025838B8A00E6384F /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138DAA1F25838B8A00E6384F /* QuizViewController.swift */; };
+		138DAA2925839A4800E6384F /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138DAA2825839A4800E6384F /* RadioButton.swift */; };
 		2107A1A8257E7199002AEF88 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107A1A7257E7199002AEF88 /* DifficultyViewController.swift */; };
 		2107A1AD257E726D002AEF88 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107A1AC257E726D002AEF88 /* CalculationViewController.swift */; };
 		2107A1B5257E7385002AEF88 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107A1B4257E7385002AEF88 /* Operations.swift */; };
@@ -57,7 +59,12 @@
 		1352C063257E696F00A0E385 /* math-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "math-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1352C067257E696F00A0E385 /* math_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = math_exerciseUITests.swift; sourceTree = "<group>"; };
 		1352C069257E696F00A0E385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		1F65657523502C4FD0DB57FC /* Pods-math-exercise-math-exerciseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-math-exercise-math-exerciseUITests.release.xcconfig"; path = "Target Support Files/Pods-math-exercise-math-exerciseUITests/Pods-math-exercise-math-exerciseUITests.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		138DAA1F25838B8A00E6384F /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		138DAA2825839A4800E6384F /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+>>>>>>> eee5762a7359d1bc6c9f9f8766a17c75bb8be596
 		2107A1A7257E7199002AEF88 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
 		2107A1AC257E726D002AEF88 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		2107A1B4257E7385002AEF88 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
@@ -130,10 +137,12 @@
 				2107A1A7257E7199002AEF88 /* DifficultyViewController.swift */,
 				2107A1AC257E726D002AEF88 /* CalculationViewController.swift */,
 				2107A1B4257E7385002AEF88 /* Operations.swift */,
+				138DAA1F25838B8A00E6384F /* QuizViewController.swift */,
 				1352C04B257E696D00A0E385 /* Main.storyboard */,
 				2112C1C0258430DE004C8AAB /* progress.json */,
 				1352C04E257E696E00A0E385 /* Assets.xcassets */,
 				1352C050257E696E00A0E385 /* LaunchScreen.storyboard */,
+				138DAA2825839A4800E6384F /* RadioButton.swift */,
 				1352C053257E696E00A0E385 /* Info.plist */,
 			);
 			path = "math-exercise";
@@ -421,11 +430,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1352C04A257E696D00A0E385 /* ViewController.swift in Sources */,
+				138DAA2025838B8A00E6384F /* QuizViewController.swift in Sources */,
 				2107A1AD257E726D002AEF88 /* CalculationViewController.swift in Sources */,
 				1352C046257E696D00A0E385 /* AppDelegate.swift in Sources */,
 				2107A1B5257E7385002AEF88 /* Operations.swift in Sources */,
 				1352C048257E696D00A0E385 /* SceneDelegate.swift in Sources */,
 				2107A1A8257E7199002AEF88 /* DifficultyViewController.swift in Sources */,
+				138DAA2925839A4800E6384F /* RadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

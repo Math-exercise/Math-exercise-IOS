@@ -10,6 +10,8 @@ import UIKit
 var selectedOperation : Operations?
 var selectedDiffuculty : Diffuculty?
 
+
+
 class ViewController: UIViewController {
     
 
@@ -44,6 +46,10 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "goToDificulty", sender: nil)
     }
     
+    @IBAction func quizButton(_ sender: Any) {
+        performSegue(withIdentifier: "goToQuiz", sender: nil)
+        
+    }
     
     
 }

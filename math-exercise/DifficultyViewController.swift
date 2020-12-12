@@ -36,10 +36,7 @@ class DifficultyViewController: UIViewController {
         performSegue(withIdentifier: "toCalculation", sender: nil)
 
     }
-    @IBAction func quizButton(_ sender: Any) {
-        selectedDiffuculty = Diffuculty.Quiz
-
-    }
+    
     
     /*
     // MARK: - Navigation

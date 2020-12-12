@@ -23,20 +23,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLE-r9-hrM">
-                                <rect key="frame" x="101" y="172" width="213" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                                <state key="normal" title="Addition ">
-                                    <color key="titleColor" systemColor="systemYellowColor"/>
-                                    <color key="titleShadowColor" systemColor="systemIndigoColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="additionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v05-VA-Qh8"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH6-fZ-dEL">
-                                <rect key="frame" x="101" y="289" width="213" height="75"/>
+                                <rect key="frame" x="101" y="229" width="213" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Subtraction">
@@ -47,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rED-cy-Klh">
-                                <rect key="frame" x="101" y="421" width="206" height="58"/>
+                                <rect key="frame" x="104" y="352" width="206" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <state key="normal" title="Multiplication">
@@ -58,7 +46,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob3-4O-vMj">
-                                <rect key="frame" x="101" y="534" width="206" height="62"/>
+                                <rect key="frame" x="104" y="469" width="206" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Division">
@@ -69,7 +57,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpP-7r-s5U">
-                                <rect key="frame" x="101" y="656" width="199" height="69"/>
+                                <rect key="frame" x="108" y="587" width="199" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <state key="normal" title="Mix">
@@ -79,6 +67,30 @@
                                     <action selector="mixButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YaB-Bb-g54"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5b-at-WSt">
+                                <rect key="frame" x="57" y="698" width="300" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20109963583779503" green="0.68379872995656688" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Quiz">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="quizButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ft-0w-B52"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLE-r9-hrM">
+                                <rect key="frame" x="101" y="110" width="213" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <state key="normal" title="Addition ">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                    <color key="titleShadowColor" systemColor="systemIndigoColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="additionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v05-VA-Qh8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -86,11 +98,168 @@
                     <navigationItem key="navigationItem" id="yYG-X8-ORw"/>
                     <connections>
                         <segue destination="EJY-Qb-rDI" kind="show" identifier="goToDificulty" id="pEw-M0-R2x"/>
+                        <segue destination="caK-oi-y87" kind="show" identifier="goToQuiz" id="0zv-oC-E44"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="75.669642857142847"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="Opv-g0-gRX">
+            <objects>
+                <viewController id="caK-oi-y87" customClass="QuizViewController" customModule="math_exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7VD-gS-wmP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="juR-Mm-OIG">
+                                <rect key="frame" x="184" y="211" width="46" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vev-ix-sCb" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Easy"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="radioButtonTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="xNd-oJ-GaB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caG-aB-0YT" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="30" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="radioButtonTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="hd1-dp-7Yh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fc-j9-pMx" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="60" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Hard"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="radioButtonTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="nkR-F2-dYy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsM-Fj-4Vo" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="90" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Expert"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="radioButtonTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="WIZ-ms-6VB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pmI-Xd-RnJ">
+                                <rect key="frame" x="184" y="399" width="46" height="30"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAj-vx-elJ" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                <rect key="frame" x="184" y="444" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Subtraction"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="radioButtonOperationTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="q8I-2Z-8Zg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8d-4f-LcI" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                <rect key="frame" x="184" y="482" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Multiplication"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="radioButtonOperationTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="BLZ-MZ-vBB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbD-2w-7ra" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                <rect key="frame" x="184" y="513" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Division"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="radioButtonOperationTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="qV7-n0-QT3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCq-EU-7BY" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                <rect key="frame" x="184" y="567" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Mix"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="radioButtonOperationTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="3K2-KI-Skf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rjk-iS-Wxb" customClass="RadioButton" customModule="math_exercise" customModuleProvider="target">
+                                <rect key="frame" x="184" y="539" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Addition "/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="radioButtonOperationTapped:" destination="caK-oi-y87" eventType="touchUpInside" id="ReL-oW-eoN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHt-2D-spK">
+                                <rect key="frame" x="77" y="659" width="260" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <state key="normal" title="Start Quiz">
+                                    <color key="titleColor" systemColor="tertiarySystemBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startQuizButton:" destination="caK-oi-y87" eventType="touchUpInside" id="Ubi-b4-d6a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yTW-Uu-7kY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="juR-Mm-OIG" firstAttribute="centerX" secondItem="7VD-gS-wmP" secondAttribute="centerX" id="3wN-4b-Smn"/>
+                            <constraint firstItem="juR-Mm-OIG" firstAttribute="top" secondItem="yTW-Uu-7kY" secondAttribute="top" constant="123" id="5rV-XP-Roj"/>
+                            <constraint firstItem="pmI-Xd-RnJ" firstAttribute="leading" secondItem="xAj-vx-elJ" secondAttribute="leading" id="7dp-50-YGh"/>
+                            <constraint firstItem="P8d-4f-LcI" firstAttribute="leading" secondItem="hbD-2w-7ra" secondAttribute="leading" id="Bzm-sP-dtL"/>
+                            <constraint firstItem="hbD-2w-7ra" firstAttribute="leading" secondItem="Rjk-iS-Wxb" secondAttribute="leading" id="Gfw-fu-2Kn"/>
+                            <constraint firstItem="xAj-vx-elJ" firstAttribute="leading" secondItem="P8d-4f-LcI" secondAttribute="leading" id="GsV-W5-2ru"/>
+                            <constraint firstItem="xAj-vx-elJ" firstAttribute="top" secondItem="pmI-Xd-RnJ" secondAttribute="bottom" constant="15" id="I1V-I9-lbJ"/>
+                            <constraint firstItem="juR-Mm-OIG" firstAttribute="leading" secondItem="pmI-Xd-RnJ" secondAttribute="leading" id="YLg-9c-D5R"/>
+                            <constraint firstItem="pmI-Xd-RnJ" firstAttribute="top" secondItem="juR-Mm-OIG" secondAttribute="bottom" constant="68" id="cq8-ya-eOp"/>
+                            <constraint firstItem="P8d-4f-LcI" firstAttribute="top" secondItem="xAj-vx-elJ" secondAttribute="bottom" constant="8" id="he4-n5-ikR"/>
+                            <constraint firstItem="Rjk-iS-Wxb" firstAttribute="top" secondItem="P8d-4f-LcI" secondAttribute="bottom" constant="27" id="nfw-3o-PKj"/>
+                            <constraint firstItem="SCq-EU-7BY" firstAttribute="top" secondItem="hbD-2w-7ra" secondAttribute="bottom" constant="24" id="qJU-EK-D6T"/>
+                            <constraint firstItem="pmI-Xd-RnJ" firstAttribute="trailing" secondItem="xAj-vx-elJ" secondAttribute="trailing" id="tle-09-Mrc"/>
+                            <constraint firstItem="hbD-2w-7ra" firstAttribute="top" secondItem="P8d-4f-LcI" secondAttribute="bottom" constant="1" id="xZL-Ld-0co"/>
+                            <constraint firstItem="Rjk-iS-Wxb" firstAttribute="leading" secondItem="SCq-EU-7BY" secondAttribute="leading" id="y5C-MM-Qhi"/>
+                            <constraint firstItem="yTW-Uu-7kY" firstAttribute="bottom" secondItem="SCq-EU-7BY" secondAttribute="bottom" constant="265" id="yFj-zp-FDq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zk6-YG-Gp9"/>
+                    <connections>
+                        <outlet property="additionRadioButton" destination="Rjk-iS-Wxb" id="J0L-GQ-f4b"/>
+                        <outlet property="divisionRadioButton" destination="hbD-2w-7ra" id="z0O-Os-ENJ"/>
+                        <outlet property="easyRadioButton" destination="Vev-ix-sCb" id="WS8-te-Yud"/>
+                        <outlet property="expertRadioButton" destination="jsM-Fj-4Vo" id="sbN-q8-QUu"/>
+                        <outlet property="hardRadioButton" destination="5fc-j9-pMx" id="CNl-HT-dZK"/>
+                        <outlet property="mediumRadioButton" destination="caG-aB-0YT" id="bmW-mE-DiP"/>
+                        <outlet property="mixRadioButton" destination="SCq-EU-7BY" id="vaD-Tr-Znh"/>
+                        <outlet property="multiplicationRadioButton" destination="P8d-4f-LcI" id="tJa-u3-KBB"/>
+                        <outlet property="subtractionRadioButton" destination="xAj-vx-elJ" id="jgP-Kk-KzP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIP-Qc-obm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2479.7101449275365" y="604.6875"/>
         </scene>
         <!--Difficulty View Controller-->
         <scene sceneID="AL5-0Z-MUC">
@@ -142,18 +311,6 @@
                                     <action selector="Expert:" destination="EJY-Qb-rDI" eventType="touchUpInside" id="LmZ-Wr-dff"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5b-at-WSt">
-                                <rect key="frame" x="58" y="662" width="300" height="66"/>
-                                <color key="backgroundColor" red="0.20109963583779503" green="0.68379872995656688" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Quiz">
-                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="Expert:" destination="EJY-Qb-rDI" eventType="touchUpInside" id="CLC-lN-tUe"/>
-                                    <action selector="quizButton:" destination="EJY-Qb-rDI" eventType="touchUpInside" id="ROz-68-MfZ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9s-xF-EhD">
                                 <rect key="frame" x="58" y="374" width="300" height="66"/>
                                 <color key="backgroundColor" red="0.20109963580000001" green="0.68379873000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -177,14 +334,10 @@
                             <constraint firstItem="g6S-uC-quN" firstAttribute="top" secondItem="f9s-xF-EhD" secondAttribute="bottom" constant="30" id="H8j-tQ-6V8"/>
                             <constraint firstItem="dAd-cK-RHm" firstAttribute="leading" secondItem="tLe-0H-TyY" secondAttribute="leading" constant="56" id="Ryg-Ob-zvL"/>
                             <constraint firstItem="f9s-xF-EhD" firstAttribute="leading" secondItem="tLe-0H-TyY" secondAttribute="leading" constant="58" id="TkL-97-Bd7"/>
-                            <constraint firstItem="c5b-at-WSt" firstAttribute="top" secondItem="R6y-fX-dtf" secondAttribute="bottom" constant="30" id="Uxd-O0-pKb"/>
-                            <constraint firstItem="R6y-fX-dtf" firstAttribute="trailing" secondItem="c5b-at-WSt" secondAttribute="trailing" id="WAh-NA-hBT"/>
                             <constraint firstItem="R6y-fX-dtf" firstAttribute="top" secondItem="g6S-uC-quN" secondAttribute="bottom" constant="30" id="WMf-jx-KQo"/>
                             <constraint firstItem="f9s-xF-EhD" firstAttribute="top" secondItem="dAd-cK-RHm" secondAttribute="bottom" constant="30" id="dCW-bj-NT0"/>
                             <constraint firstItem="f9s-xF-EhD" firstAttribute="leading" secondItem="g6S-uC-quN" secondAttribute="leading" id="e4v-oz-Fo3"/>
                             <constraint firstItem="tLe-0H-TyY" firstAttribute="trailing" secondItem="f9s-xF-EhD" secondAttribute="trailing" constant="56" id="g6B-Wm-kPO"/>
-                            <constraint firstItem="R6y-fX-dtf" firstAttribute="leading" secondItem="c5b-at-WSt" secondAttribute="leading" id="gqe-DG-298"/>
-                            <constraint firstItem="tLe-0H-TyY" firstAttribute="bottom" secondItem="c5b-at-WSt" secondAttribute="bottom" constant="134" id="m4n-Bv-Esa"/>
                             <constraint firstItem="dAd-cK-RHm" firstAttribute="top" secondItem="tLe-0H-TyY" secondAttribute="top" constant="190" id="mhN-2l-hNK"/>
                             <constraint firstItem="g6S-uC-quN" firstAttribute="leading" secondItem="R6y-fX-dtf" secondAttribute="leading" id="qjA-Mg-8nG"/>
                             <constraint firstItem="f9s-xF-EhD" firstAttribute="trailing" secondItem="g6S-uC-quN" secondAttribute="trailing" id="vf9-iS-puQ"/>
@@ -197,7 +350,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hHL-Td-xMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2760.8695652173915" y="75.669642857142847"/>
+            <point key="canvasLocation" x="2322" y="-264"/>
         </scene>
         <!--Calculation View Controller-->
         <scene sceneID="3pB-j5-uBf">
@@ -459,7 +612,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6uC-Df-UKT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3649.275362318841" y="75.669642857142847"/>
+            <point key="canvasLocation" x="4559.420289855073" y="75.669642857142847"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="H5b-do-J12">
@@ -477,7 +630,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVl-mH-sc5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1825" y="753"/>
+            <point key="canvasLocation" x="1683" y="-1177"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xlE-bM-9uY">
@@ -495,11 +648,59 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQh-yl-uVG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
+            <point key="canvasLocation" x="129" y="-1052"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fHh-rJ-sa6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lSh-qx-Cx7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZOI-BN-a8j">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="caK-oi-y87" kind="relationship" relationship="rootViewController" id="WAV-2V-Rqu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KAG-Cr-HKb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1058" y="1413"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="5fc-j9-pMx">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="P8d-4f-LcI">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="Rjk-iS-Wxb">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="SCq-EU-7BY">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="Vev-ix-sCb">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="caG-aB-0YT">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="hbD-2w-7ra">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="jsM-Fj-4Vo">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="xAj-vx-elJ">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="pEw-M0-R2x"/>
+        <segue reference="0zv-oC-E44"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
@@ -514,8 +715,14 @@
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
