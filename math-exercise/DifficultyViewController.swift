@@ -37,6 +37,15 @@ class DifficultyViewController: UIViewController {
 
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toCalculation"
+        {
+            let destinationVC = segue.destination as! CalculationViewController
+            destinationVC.checkSegue = "Calculation"
+            
+        }
+    }
+    
     
     /*
     // MARK: - Navigation

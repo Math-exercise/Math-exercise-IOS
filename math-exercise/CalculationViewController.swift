@@ -16,7 +16,7 @@ class CalculationViewController: UIViewController {
     var correctQuestion = 0
     var emptyQuestion = 0
     var wrongQuestion = 0
-    
+    var checkSegue=""
     public var animationViewLoading: AnimationView?
 
     //numbers
@@ -49,10 +49,14 @@ class CalculationViewController: UIViewController {
         
         questionFunc()
 
-        
-        // Do any additional setup after loading the view.
-        
+       
     }
+  
+    
+    
+    
+    
+    
     func questionFunc()  {
         resultLabel.layer.borderColor = UIColor.red.cgColor
         switch selectedOperation {
@@ -141,6 +145,9 @@ class CalculationViewController: UIViewController {
             }
             divisionFunc()
             break
+   
+        
+        
         // 1-Sum 2-Minus 3-Multiple 4-Division
         case .Mix :
             let randomOperation = Int.random(in: 1..<5)
@@ -266,12 +273,17 @@ class CalculationViewController: UIViewController {
         default:
             print("")
         }
-        animationViewLoading = .init(name: "progress")
-        animationViewLoading!.frame = progressView.bounds
-        animationViewLoading?.center = progressView.center
-        animationViewLoading!.animationSpeed = 0.04
-        self.view.addSubview(animationViewLoading!)
-        animationViewLoading!.play()
+        
+        if(checkSegue == "Quiz")
+        {
+            animationViewLoading = .init(name: "progress")
+            animationViewLoading!.frame = progressView.bounds
+            animationViewLoading?.center = progressView.center
+            animationViewLoading!.animationSpeed = 0.04
+            self.view.addSubview(animationViewLoading!)
+            animationViewLoading!.play()
+        }
+        
 
     }
     
@@ -508,4 +520,5 @@ class CalculationViewController: UIViewController {
     
     
 }
+
 

@@ -57,9 +57,68 @@ class QuizViewController: UIViewController {
         if checkButtonOperation && checkButtonDifficulty
         {
             print("eller havaya")
+            if easyRadioButton.isSelected == true
+            {
+                selectedDiffuculty = Diffuculty.Easy
+                print("kolay secildi ")
+            }
+            if mediumRadioButton.isSelected == true
+            {
+                selectedDiffuculty = Diffuculty.Medium
+                print("orta secildi ")
+            }
+            if hardRadioButton.isSelected == true
+            {
+                selectedDiffuculty = Diffuculty.Hard
+                print("zor  secildi ")
+            }
+            if expertRadioButton.isSelected == true
+            {
+                selectedDiffuculty = Diffuculty.Expert
+                print("en zor  secildi ")
+            }
+            
+            if subtractionRadioButton.isSelected == true
+            {
+                selectedOperation = Operations.Subtraction
+                print(" subst secildi ")
+            }
+            if multiplicationRadioButton.isSelected == true
+            {
+                selectedOperation = Operations.Multiplication
+                print("multiplication secildi  ")
+            }
+            if additionRadioButton.isSelected == true
+            {
+                selectedOperation = Operations.Addition
+                print(" toplma secildi ")
+            }
+            if divisionRadioButton.isSelected == true
+            {
+                selectedOperation = Operations.Division
+                print(" divison secilid ")
+            }
+            if mixRadioButton.isSelected == true
+            {
+                selectedOperation = Operations.Mix
+                print(" karisik kategori ")
+            }
+            
+            performSegue(withIdentifier: "toQuiz", sender: nil)
+
+          
+            
+           //// selectedDiffuculty = Diffuculty.Easy
         }
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toQuiz"
+        {
+            let destinationVC = segue.destination as! CalculationViewController
+            destinationVC.checkSegue = "Quiz"
+            
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         

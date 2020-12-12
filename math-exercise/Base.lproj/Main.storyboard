@@ -255,6 +255,7 @@
                         <outlet property="mixRadioButton" destination="SCq-EU-7BY" id="vaD-Tr-Znh"/>
                         <outlet property="multiplicationRadioButton" destination="P8d-4f-LcI" id="tJa-u3-KBB"/>
                         <outlet property="subtractionRadioButton" destination="xAj-vx-elJ" id="jgP-Kk-KzP"/>
+                        <segue destination="j79-iv-XTn" kind="show" identifier="toQuiz" id="H34-U1-hKr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GIP-Qc-obm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -699,6 +700,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
+        <segue reference="H34-U1-hKr"/>
         <segue reference="pEw-M0-R2x"/>
         <segue reference="0zv-oC-E44"/>
     </inferredMetricsTieBreakers>
