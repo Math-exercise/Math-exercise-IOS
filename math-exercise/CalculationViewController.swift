@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class CalculationViewController: UIViewController {
     //numbers
@@ -24,8 +25,16 @@ class CalculationViewController: UIViewController {
         calculationLabel.layer.borderWidth = 2
         calculationLabel.layer.borderColor = UIColor.red.cgColor
         
+        resultLabel.layer.borderWidth = 2
         
+        questionFunc()
 
+        
+        // Do any additional setup after loading the view.
+        
+    }
+    func questionFunc()  {
+        resultLabel.layer.borderColor = UIColor.red.cgColor
         switch selectedOperation {
         case .Addition:
             switch selectedDiffuculty {
@@ -205,8 +214,6 @@ class CalculationViewController: UIViewController {
             print("")
         }
 
-        // Do any additional setup after loading the view.
-        
     }
     
     //set number for given range
@@ -412,7 +419,10 @@ class CalculationViewController: UIViewController {
         
         if resultLabel.text == String(result)
         {
-            resultLabel.text = "SUCCESSFUL!!!"
+            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+            resultLabel.text = ""
+//            UIDevice.vibrate()
+            questionFunc()
         }
         else
         {
@@ -420,7 +430,12 @@ class CalculationViewController: UIViewController {
         }
     }
     
+    @IBAction func nextQuestionButton(_ sender: Any) {
+        questionFunc()
+    }
     
+   
     
     
 }
+
