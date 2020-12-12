@@ -7,8 +7,18 @@
 
 import UIKit
 import AVFoundation
+import Lottie
 
 class CalculationViewController: UIViewController {
+    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var progressView: UIView!
+    
+    var correctQuestion = 0
+    var emptyQuestion = 0
+    var wrongQuestion = 0
+    
+    public var animationViewLoading: AnimationView?
+
     //numbers
     var num1:Int?
     var num2:Int?
@@ -21,6 +31,16 @@ class CalculationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        selectedDiffuculty = .Quiz
+        if (selectedDiffuculty == Diffuculty.Quiz) {
+            nextButton.isHidden = true
+        }
+        else{
+            animationViewLoading?.isHidden = true
+        }
+        
+        
+        
         
         calculationLabel.layer.borderWidth = 2
         calculationLabel.layer.borderColor = UIColor.red.cgColor
@@ -50,6 +70,8 @@ class CalculationViewController: UIViewController {
             case .Expert:
                 randomVariableForSum(min: 100, max: 200)
                 break
+            case .Quiz :
+                randomVariableForSum(min: 20, max: 90)
             default:
                 print("")
             }
@@ -70,6 +92,8 @@ class CalculationViewController: UIViewController {
             case .Expert:
                 randomVariableForSubstraction(min: 76, max: 120)
                 break
+            case .Quiz:
+                randomVariableForSubstraction(min: 20, max: 90)
             default:
                 print("")
             }
@@ -89,6 +113,8 @@ class CalculationViewController: UIViewController {
             case .Expert:
                 randomVariableForMultiplication(min: 50, max: 100)
                 break
+            case .Quiz:
+                randomVariableForMultiplication(min: 20, max: 100)
             default:
                 print("")
             }
@@ -108,6 +134,8 @@ class CalculationViewController: UIViewController {
             case .Expert:
                 randomVariableForDivision(min: 50, max: 300)
                 break
+            case .Quiz :
+                randomVariableForDivision(min: 40, max: 300)
             default:
                 print("")
             }
@@ -205,14 +233,45 @@ class CalculationViewController: UIViewController {
                     print("")
                 }
                 break
+            case .Quiz:
+                switch randomOperation {
+                case 1:
+                    randomVariableForSum(min: 2, max: 20)
+                    sumFunc()
+                    break
+                case 2:
+                    randomVariableForSubstraction(min: 2, max: 20)
+                    subtractionFunc()
+                    break
+                case 3:
+                    randomVariableForMultiplication(min: 2, max: 10)
+                    multiplicationFunc()
+                    break
+                case 4:
+                    randomVariableForDivision(min: 50, max: 300)
+                    divisionFunc()
+                    break
+                default:
+                    print("")
+                }
+                break
+                
             default:
                 print("")
             }
             
+            
             break
+        
         default:
             print("")
         }
+        animationViewLoading = .init(name: "progress")
+        animationViewLoading!.frame = progressView.bounds
+        animationViewLoading?.center = progressView.center
+        animationViewLoading!.animationSpeed = 0.04
+        self.view.addSubview(animationViewLoading!)
+        animationViewLoading!.play()
 
     }
     
@@ -419,15 +478,26 @@ class CalculationViewController: UIViewController {
         
         if resultLabel.text == String(result)
         {
+            correctQuestion += 1
             AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
             resultLabel.text = ""
+            animationViewLoading?.stop()
 //            UIDevice.vibrate()
             questionFunc()
+            
+            
         }
         else
         {
             resultLabel.text = ""
+            wrongQuestion += 1
+            if selectedDiffuculty == Diffuculty.Quiz {
+                animationViewLoading?.stop()
+                questionFunc()
+            }
         }
+        print("true ans : \(correctQuestion)")
+        print("wrong ans : \(wrongQuestion)")
     }
     
     @IBAction func nextQuestionButton(_ sender: Any) {

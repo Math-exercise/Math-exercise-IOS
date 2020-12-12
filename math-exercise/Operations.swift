@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 enum Operations {
     case Addition
     case Subtraction

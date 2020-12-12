@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 public enum CoordinateSpace: Int, Codable {
   case type2d
   case type3d
