@@ -17,13 +17,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
 
     @IBAction func additionButton(_ sender: Any) {
         selectedOperation = Operations.Addition
         performSegue(withIdentifier: "goToDificulty", sender: nil)
-        
     }
     
     @IBAction func subtractionButton(_ sender: Any) {
@@ -51,6 +51,9 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func settingsButton(_ sender: Any) {
+        performSegue(withIdentifier: "toSettings", sender: nil)
+    }
     
 }
 

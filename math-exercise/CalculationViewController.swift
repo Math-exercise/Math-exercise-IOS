@@ -343,7 +343,6 @@ class CalculationViewController: UIViewController {
     
     
     @IBAction func oneButton(_ sender: Any) {
-        
         if checkClicking
         {
             resultLabel.text = "1"

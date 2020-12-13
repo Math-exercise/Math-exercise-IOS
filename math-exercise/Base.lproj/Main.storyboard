@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="qcc-Pc-Tgw">
+            <objects>
+                <viewController id="kkF-6R-Yhm" customClass="SettingsViewController" customModule="math_exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tnY-yT-eSI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="e1i-Og-EaC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9cW-vE-Zr9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="103-B8-G6p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-428" y="76"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -91,6 +107,14 @@
                                     <action selector="additionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v05-VA-Qh8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1Z-eV-gaI">
+                                <rect key="frame" x="20" y="122" width="73" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="settings"/>
+                                <connections>
+                                    <action selector="settingsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ViF-Ri-Wd4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -99,6 +123,7 @@
                     <connections>
                         <segue destination="EJY-Qb-rDI" kind="show" identifier="goToDificulty" id="pEw-M0-R2x"/>
                         <segue destination="caK-oi-y87" kind="show" identifier="goToQuiz" id="0zv-oC-E44"/>
+                        <segue destination="kkF-6R-Yhm" kind="show" identifier="toSettings" id="RXp-4u-obC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

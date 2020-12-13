@@ -7,6 +7,8 @@ target 'math-exercise' do
 
   # Pods for math-exercise
 	pod 'lottie-ios'
+	pod 'QuickTableViewController'
+
 
   target 'math-exerciseTests' do
     inherit! :search_paths
