@@ -22,8 +22,14 @@ class CalculationViewController: UIViewController {
     //numbers
     var num1:Int?
     var num2:Int?
+    
+    
+    // timer
+    var counter = 1
+    var timer = Timer()
 
     //label
+    @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var calculationLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
     var checkClicking = true
@@ -282,6 +288,9 @@ class CalculationViewController: UIViewController {
             animationViewLoading!.animationSpeed = 0.04
             self.view.addSubview(animationViewLoading!)
             animationViewLoading!.play()
+            nextButton.isHidden = true
+            startTimer()
+            
         }
         
 
@@ -341,6 +350,36 @@ class CalculationViewController: UIViewController {
         result = num1! * num2!
     }
     
+    
+    // timer
+    
+   func startTimer() {
+        timer = Timer.scheduledTimer(timeInterval: 1,
+                                     
+                                     target: self,
+                                     selector: #selector(eventWith(timer:)),
+                                     userInfo: [ "foo" : "bar" ],
+                                     repeats: true)
+    }
+
+    // Timer expects @objc selector
+    @objc func eventWith(timer: Timer!) {
+        counter += 1
+       timerLabel.text = "\(counter)"
+        if counter == 15
+        {
+            timer.invalidate()
+            print("huseyin")
+            counter = 0
+            animationViewLoading?.stop()
+            questionFunc()
+            resultLabel.text = ""
+       
+            
+        }
+        
+        
+    }
     
     @IBAction func oneButton(_ sender: Any) {
         
@@ -486,7 +525,58 @@ class CalculationViewController: UIViewController {
     }
     
     @IBAction func checkButton(_ sender: Any) {
-        //resultLabel.text = String(trueResult)
+       
+        if(checkSegue == "Quiz")
+        {
+            if resultLabel.text == String(result)
+            {
+                correctQuestion += 1
+                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+                resultLabel.text = ""
+                animationViewLoading?.stop()
+                questionFunc()
+                timer.invalidate()
+                counter = 0
+                
+                
+            }
+            else
+            {
+                wrongQuestion += 1
+                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+                resultLabel.text = ""
+                animationViewLoading!.stop()
+                questionFunc()
+                timer.invalidate()
+                counter = 0
+                
+                
+              //  animationViewLoading!.play()
+                
+            }
+            
+            
+        }
+        if(checkSegue == "Calculation")
+        {
+            if resultLabel.text == String(result)
+            {
+                //correctQuestion += 1
+                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+                resultLabel.text = ""
+                questionFunc()
+                
+                
+            }
+            else
+            {
+                resultLabel.text = ""
+                
+            }
+            
+            
+        }
+        
         
         if resultLabel.text == String(result)
         {
@@ -494,7 +584,6 @@ class CalculationViewController: UIViewController {
             AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
             resultLabel.text = ""
             animationViewLoading?.stop()
-//            UIDevice.vibrate()
             questionFunc()
             
             
@@ -515,9 +604,6 @@ class CalculationViewController: UIViewController {
     @IBAction func nextQuestionButton(_ sender: Any) {
         questionFunc()
     }
-    
-   
-    
     
 }
 

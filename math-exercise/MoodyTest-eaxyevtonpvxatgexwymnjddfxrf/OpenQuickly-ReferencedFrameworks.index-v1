@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Foundation</string>
+	<string>CoreData</string>
+	<string>AppKit</string>
+	<string>SceneKit</string>
+	<string>CoreGraphics</string>
+	<string>AVFoundation</string>
+	<string>mach</string>
+	<string>SCSDKCreativeKit</string>
+	<string>QuartzCore</string>
+	<string>libkern</string>
+	<string>CoreMotion</string>
+	<string>ARCore</string>
+	<string>ARCoreCloudAnchors</string>
+	<string>CoreText</string>
+	<string>ARCoreAugmentedFaces</string>
+	<string>UIKit</string>
+	<string>sys</string>
+	<string>CoreImage</string>
+	<string>Photos</string>
+	<string>Protobuf</string>
+	<string>WatchKit</string>
+	<string>ARKit</string>
+	<string>Lottie</string>
+	<string>MobileCoreServices</string>
+	<string>CoreFoundation</string>
+	<string>SCNRecorder</string>
+	<string>AVKit</string>
+	<string>objc</string>
+</array>
+</plist>

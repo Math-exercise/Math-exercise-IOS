@@ -524,6 +524,15 @@
                             </button>
                             <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="jYF-oi-vwy">
                                 <rect key="frame" x="87" y="340" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZx-EJ-1hx">
+                                        <rect key="frame" x="99" y="54" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="Jj1-wD-OIr"/>
                                     <constraint firstAttribute="width" constant="240" id="hYc-Sd-W5u"/>
@@ -609,6 +618,7 @@
                         <outlet property="nextButton" destination="gs8-7i-4BJ" id="gvw-0l-0Pm"/>
                         <outlet property="progressView" destination="jYF-oi-vwy" id="TtL-tt-9bP"/>
                         <outlet property="resultLabel" destination="9SJ-qo-bca" id="Bd3-SW-cYA"/>
+                        <outlet property="timerLabel" destination="CZx-EJ-1hx" id="BbI-lJ-5Eg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6uC-Df-UKT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
