@@ -6,6 +6,34 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>297D7A8F-37B6-4C56-8A8D-4B1CD3C745C7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>297D7A8F-37B6-4C56-8A8D-4B1CD3C745C7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>lottie-ios-dfnngmmwetzxvuaehlgwmdnifosg</string>
+			<key>timeStartedRecording</key>
+			<real>629507122.699911</real>
+			<key>timeStoppedRecording</key>
+			<real>629507123.26161098</real>
+			<key>title</key>
+			<string>Build target lottie-ios</string>
+			<key>uniqueIdentifier</key>
+			<string>297D7A8F-37B6-4C56-8A8D-4B1CD3C745C7</string>
+		</dict>
 		<key>3D7136F8-FA6A-4D03-8F77-6E6B0C1B3408</key>
 		<dict>
 			<key>className</key>
@@ -34,7 +62,7 @@
 			<key>uniqueIdentifier</key>
 			<string>3D7136F8-FA6A-4D03-8F77-6E6B0C1B3408</string>
 		</dict>
-		<key>A9B3E554-57E3-4A04-823B-433181CC1FA2</key>
+		<key>5A01D536-D16E-4DC5-BD8B-9E42A7F73C38</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>A9B3E554-57E3-4A04-823B-433181CC1FA2.xcactivitylog</string>
+			<string>5A01D536-D16E-4DC5-BD8B-9E42A7F73C38.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,41 +82,13 @@
 			<key>signature</key>
 			<string>math-exercise-bceanncrxziprfgsuvchpqlkbfie</string>
 			<key>timeStartedRecording</key>
-			<real>629490385.21967399</real>
+			<real>629515582.75464106</real>
 			<key>timeStoppedRecording</key>
-			<real>629490386.56259</real>
+			<real>629515584.04618597</real>
 			<key>title</key>
 			<string>Build target math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>A9B3E554-57E3-4A04-823B-433181CC1FA2</string>
-		</dict>
-		<key>D823DE58-BCFB-4221-B1B3-C8CC4FA4B0B2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>D823DE58-BCFB-4221-B1B3-C8CC4FA4B0B2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>lottie-ios-dfnngmmwetzxvuaehlgwmdnifosg</string>
-			<key>timeStartedRecording</key>
-			<real>629489858.10482204</real>
-			<key>timeStoppedRecording</key>
-			<real>629489859.51772296</real>
-			<key>title</key>
-			<string>Build target lottie-ios</string>
-			<key>uniqueIdentifier</key>
-			<string>D823DE58-BCFB-4221-B1B3-C8CC4FA4B0B2</string>
+			<string>5A01D536-D16E-4DC5-BD8B-9E42A7F73C38</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
