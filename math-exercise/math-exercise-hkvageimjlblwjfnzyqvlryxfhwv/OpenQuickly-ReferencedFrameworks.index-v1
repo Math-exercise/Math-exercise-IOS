@@ -4,10 +4,11 @@
 <array>
 	<string>Lottie</string>
 	<string>QuartzCore</string>
-	<string>XCTest</string>
 	<string>AppKit</string>
+	<string>QuickTableViewController</string>
 	<string>CoreGraphics</string>
 	<string>CoreText</string>
+	<string>XCTest</string>
 	<string>math</string>
 	<string>UIKit</string>
 	<string>AVFoundation</string>

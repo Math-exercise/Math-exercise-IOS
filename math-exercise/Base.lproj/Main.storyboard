@@ -572,6 +572,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3P-qe-Ap1">
+                                <rect key="frame" x="340" y="113" width="27" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UR6-Gl-rvu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -642,6 +649,7 @@
                         <outlet property="calculationLabel" destination="49P-cj-d3x" id="FIS-Eg-DEu"/>
                         <outlet property="nextButton" destination="gs8-7i-4BJ" id="gvw-0l-0Pm"/>
                         <outlet property="progressView" destination="jYF-oi-vwy" id="TtL-tt-9bP"/>
+                        <outlet property="questionNumberLabel" destination="U3P-qe-Ap1" id="jhY-fQ-7Ft"/>
                         <outlet property="resultLabel" destination="9SJ-qo-bca" id="Bd3-SW-cYA"/>
                         <outlet property="timerLabel" destination="CZx-EJ-1hx" id="BbI-lJ-5Eg"/>
                     </connections>

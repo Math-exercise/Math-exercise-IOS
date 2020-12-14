@@ -17,6 +17,7 @@ class CalculationViewController: UIViewController {
     var emptyQuestion = 0
     var wrongQuestion = 0
     var checkSegue=""
+    var questionNumber = 1
     public var animationViewLoading: AnimationView?
 
     //numbers
@@ -27,8 +28,15 @@ class CalculationViewController: UIViewController {
     // timer
     var counter = 1
     var timer = Timer()
+    
+    // sounds player
+    var player: AVAudioPlayer?
 
     //label
+   
+    
+    @IBOutlet weak var questionNumberLabel: UILabel!
+    
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var calculationLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
@@ -39,7 +47,8 @@ class CalculationViewController: UIViewController {
         super.viewDidLoad()
      
         if (selectedDiffuculty == Diffuculty.Quiz) {
-            nextButton.isHidden = true
+            //nextButton.isHidden = true
+            //nextButton.isEnabled = false
         }
         else{
             animationViewLoading?.isHidden = true
@@ -289,8 +298,15 @@ class CalculationViewController: UIViewController {
             self.view.addSubview(animationViewLoading!)
             animationViewLoading!.play()
             nextButton.isHidden = true
+            
+           // nextButton.isEnabled = false
+          
             startTimer()
             
+        }
+        else
+        {
+            questionNumberLabel.isHidden = true
         }
         
 
@@ -374,6 +390,9 @@ class CalculationViewController: UIViewController {
             animationViewLoading?.stop()
             questionFunc()
             resultLabel.text = ""
+            questionNumber += 1
+            questionNumberLabel.text = String(questionNumber)
+            
        
             
         }
@@ -522,7 +541,48 @@ class CalculationViewController: UIViewController {
         
         
     }
-    
+    func playWrongSound() {
+        guard let url = Bundle.main.url(forResource: "wrong", withExtension: "mp3") else { return }
+
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+
+            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+
+            /* iOS 10 and earlier require the following line:
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
+
+            guard let player = player else { return }
+
+            player.play()
+
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
+    func playCorrectSound() {
+        guard let url = Bundle.main.url(forResource: "correct", withExtension: "mp3") else { return }
+
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+
+            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+
+            /* iOS 10 and earlier require the following line:
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
+
+            guard let player = player else { return }
+
+            player.play()
+
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
     @IBAction func checkButton(_ sender: Any) {
        
         if(checkSegue == "Quiz")
@@ -536,11 +596,16 @@ class CalculationViewController: UIViewController {
                 questionFunc()
                 timer.invalidate()
                 counter = 0
+                questionNumber += 1
+                questionNumberLabel.text = String(questionNumber)
+                playCorrectSound()
+                
                 
                 
             }
             else
             {
+                questionNumberLabel.text = String(questionNumber)
                 wrongQuestion += 1
                 AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
                 resultLabel.text = ""
@@ -548,6 +613,10 @@ class CalculationViewController: UIViewController {
                 questionFunc()
                 timer.invalidate()
                 counter = 0
+                questionNumber += 1
+                playWrongSound()
+                
+        
                 
                 
               //  animationViewLoading!.play()
