@@ -38,13 +38,23 @@ class SettingsViewController: QuickTableViewController {
               OptionRow(text: "10", isSelected: true, action: didToggleSelectionForTime()),
               OptionRow(text: "15", isSelected: false, action: didToggleSelectionForTime()),
               OptionRow(text: "20", isSelected: false, action: didToggleSelectionForTime())
-            ])
+            ]),
+            Section(title: "Rate the app", rows: [
+                    TapActionRow(text: "Rate!", action: toAppStore())
+                  ]),
+            
            ]
 
         // Do any additional setup after loading the view.
     }
-    private func showAlert(_ sender: Row) {
-        // ...
+    private func showAlert() -> (Row) -> Void {
+        return { [weak self] _ in
+          let alert = UIAlertController(title: "Action Triggered", message: nil, preferredStyle: .alert)
+          alert.addAction(UIAlertAction(title: "OK", style: .cancel) { [weak self] _ in
+            self?.dismiss(animated: true, completion: nil)
+          })
+          self?.present(alert, animated: true, completion: nil)
+        }
       }
 
     private func didToggleSelectionForNumber() -> (Row) -> Void {
@@ -72,8 +82,6 @@ class SettingsViewController: QuickTableViewController {
                 soundOn = true
                 self.checkSound = true
             }
-            
-            
         }
     }
     private func vibrationFunc() -> (Row) -> Void {
@@ -94,6 +102,15 @@ class SettingsViewController: QuickTableViewController {
     
     func switchValueDidChange(_ sender: UISwitch) {
         print("wow")
+    }
+    
+    func toAppStore() -> (Row) -> Void{
+        
+        return {row in 
+            if let url = URL(string: "itms-apps://apple.com/app/id839686104") {
+                UIApplication.shared.open(url)
+            }
+        };
     }
     
 
