@@ -14,14 +14,17 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        correctLabel.text = "Correct Answers : \(selectedNumberofQuestion)"
-        wrongLabel.text = "Wrong Answers : \(selectedNumberofQuestion)"
+        correctLabel.text = "Correct Answers : \(correctQuestion)"
+        wrongLabel.text = "Wrong Answers : \(wrongQuestion)"
+        
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func showMain(_ sender: Any) {
         performSegue(withIdentifier: "toMain", sender: nil)
+        correctQuestion = 0
+        wrongQuestion = 0
     }
     
     /*

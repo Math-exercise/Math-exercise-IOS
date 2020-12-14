@@ -9,13 +9,14 @@ import UIKit
 import AVFoundation
 import Lottie
 
+var correctQuestion = 0
+var wrongQuestion = 0
+
 class CalculationViewController: UIViewController {
+    
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var progressView: UIView!
     
-    var correctQuestion = 0
-    var emptyQuestion = 0
-    var wrongQuestion = 0
     var checkSegue=""
     var questionNumber = 1
     public var animationViewLoading: AnimationView?
@@ -46,17 +47,9 @@ class CalculationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
      
-        if (selectedDiffuculty == Diffuculty.Quiz) {
-            //nextButton.isHidden = true
-            //nextButton.isEnabled = false
-        }
-        else{
-            animationViewLoading?.isHidden = true
-        }
-        
-        
-        
-        
+        correctQuestion = 0
+        wrongQuestion = 0
+     
         calculationLabel.layer.borderWidth = 2
         calculationLabel.layer.borderColor = UIColor.red.cgColor
         
@@ -583,6 +576,24 @@ class CalculationViewController: UIViewController {
             print(error.localizedDescription)
         }
     }
+    
+    func soundAndVibrationforTrue(){
+        if soundOn {
+            playCorrectSound()
+        }
+        if vibration {
+            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+        }
+    }
+    func soundAndVibrationforFalse(){
+        if soundOn {
+            playWrongSound()
+        }
+        if vibration {
+            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+        }
+    }
+    
     @IBAction func checkButton(_ sender: Any) {
        
         if(checkSegue == "Quiz")
@@ -590,7 +601,6 @@ class CalculationViewController: UIViewController {
             if resultLabel.text == String(result)
             {
                 correctQuestion += 1
-                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
                 resultLabel.text = ""
                 animationViewLoading?.stop()
                 questionFunc()
@@ -598,30 +608,29 @@ class CalculationViewController: UIViewController {
                 counter = 0
                 questionNumber += 1
                 questionNumberLabel.text = String(questionNumber)
-                playCorrectSound()
-                
-                
-                
+                soundAndVibrationforTrue()
+               print("furkan anla artik ")
+    
             }
             else
             {
-                questionNumberLabel.text = String(questionNumber)
+                
                 wrongQuestion += 1
-                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
                 resultLabel.text = ""
                 animationViewLoading!.stop()
+                questionNumber += 1
                 questionFunc()
                 timer.invalidate()
                 counter = 0
-                questionNumber += 1
-                playWrongSound()
-                
-        
-                
-                
+                soundAndVibrationforFalse()
+                questionNumberLabel.text = String(questionNumber)
               //  animationViewLoading!.play()
                 
             }
+            if questionNumber == selectedNumberofQuestion+1 {
+                performSegue(withIdentifier: "toResults", sender: nil)
+            }
+            
             
             
         }
@@ -630,48 +639,46 @@ class CalculationViewController: UIViewController {
             if resultLabel.text == String(result)
             {
                 //correctQuestion += 1
-                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
                 resultLabel.text = ""
                 questionFunc()
-                
-                
             }
             else
             {
                 resultLabel.text = ""
-                
             }
             
             
         }
         
         
-        if resultLabel.text == String(result)
-        {
-            correctQuestion += 1
-            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
-            resultLabel.text = ""
-            animationViewLoading?.stop()
-            questionFunc()
-            
-            
-        }
-        else
-        {
-            resultLabel.text = ""
-            wrongQuestion += 1
-            if selectedDiffuculty == Diffuculty.Quiz {
-                animationViewLoading?.stop()
-                questionFunc()
-            }
-        }
+//        if resultLabel.text == String(result)
+//        {
+//            correctQuestion += 1
+//            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+//            resultLabel.text = ""
+//            animationViewLoading?.stop()
+//            questionFunc()
+//
+//
+//        }
+//        else
+//        {
+//            resultLabel.text = ""
+//
+//            if selectedDiffuculty == Diffuculty.Quiz {
+//                animationViewLoading?.stop()
+//                questionFunc()
+//            }
+//        }
         print("true ans : \(correctQuestion)")
         print("wrong ans : \(wrongQuestion)")
+        
     }
     
     @IBAction func nextQuestionButton(_ sender: Any) {
         questionFunc()
     }
+    
     
 }
 

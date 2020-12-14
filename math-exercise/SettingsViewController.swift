@@ -12,11 +12,12 @@ var selectedNumberofQuestion = 10
 var selectedTime = 15
 
 var soundOn = true
-var checkSound = true
 var vibration = true
-var checkVibration = true
+
 
 class SettingsViewController: QuickTableViewController {
+    var checkSound = true
+    var checkVibration = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,13 +64,13 @@ class SettingsViewController: QuickTableViewController {
     private func soundFunc() -> (Row) -> Void {
         
         return{ row in
-            if (checkSound){
+            if (self.checkSound){
                 soundOn = false
-                checkSound = false
+                self.checkSound = false
              }
             else{
                 soundOn = true
-                checkSound = true
+                self.checkSound = true
             }
             
             
@@ -78,13 +79,13 @@ class SettingsViewController: QuickTableViewController {
     private func vibrationFunc() -> (Row) -> Void {
         
         return{[weak self] row in
-            if (checkVibration ){
+            if (self!.checkVibration ){
                 vibration = false
-                checkVibration = false
+                self!.checkVibration = false
              }
             else{
                 vibration = true
-                checkVibration = true
+                self!.checkVibration = true
             }
             
             

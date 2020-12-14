@@ -662,7 +662,6 @@
         <!--Result View Controller-->
         <scene sceneID="YKe-wC-oDe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HyF-F7-SUM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="0gm-Dx-M6j" customClass="ResultViewController" customModule="math_exercise" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wqw-ZU-KcT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -697,9 +696,10 @@
                     <connections>
                         <outlet property="correctLabel" destination="MTs-cm-cpq" id="aVt-Vy-fmX"/>
                         <outlet property="wrongLabel" destination="A9f-zW-NGY" id="afm-H7-ELH"/>
-                        <segue destination="XLI-jW-1O0" kind="show" identifier="toMain" id="Nr1-zb-I1l"/>
+                        <segue destination="XLI-jW-1O0" kind="presentation" identifier="toMain" modalPresentationStyle="fullScreen" id="Nr1-zb-I1l"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HyF-F7-SUM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5069.5652173913049" y="75.669642857142847"/>
         </scene>
@@ -728,7 +728,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="9Ur-cA-RJK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HMS-ix-RZe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -789,8 +789,8 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="UDu-rU-YTz"/>
-        <segue reference="pEw-M0-R2x"/>
+        <segue reference="H34-U1-hKr"/>
+        <segue reference="p15-U5-bYd"/>
         <segue reference="0zv-oC-E44"/>
     </inferredMetricsTieBreakers>
     <resources>
