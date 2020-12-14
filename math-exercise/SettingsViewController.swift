@@ -9,6 +9,8 @@ import UIKit
 import QuickTableViewController
 
 var selectedNumberofQuestion = 10
+var selectedTime = 15
+
 var soundOn = true
 var checkSound = true
 var vibration = true
@@ -27,10 +29,15 @@ class SettingsViewController: QuickTableViewController {
 
 
              RadioSection(title: "Number of questions in Quiz", options: [
-               OptionRow(text: "10", isSelected: true, action: didToggleSelection()),
-               OptionRow(text: "15", isSelected: false, action: didToggleSelection()),
-               OptionRow(text: "20", isSelected: false, action: didToggleSelection())
-             ])
+               OptionRow(text: "10", isSelected: true, action: didToggleSelectionForNumber()),
+               OptionRow(text: "15", isSelected: false, action: didToggleSelectionForNumber()),
+               OptionRow(text: "20", isSelected: false, action: didToggleSelectionForNumber())
+             ]),
+            RadioSection(title: "Time for questions", options: [
+              OptionRow(text: "10", isSelected: true, action: didToggleSelectionForTime()),
+              OptionRow(text: "15", isSelected: false, action: didToggleSelectionForTime()),
+              OptionRow(text: "20", isSelected: false, action: didToggleSelectionForTime())
+            ])
            ]
 
         // Do any additional setup after loading the view.
@@ -39,10 +46,17 @@ class SettingsViewController: QuickTableViewController {
         // ...
       }
 
-    private func didToggleSelection() -> (Row) -> Void {
+    private func didToggleSelectionForNumber() -> (Row) -> Void {
         
         return { row in
             selectedNumberofQuestion = Int(row.text)!
+        }
+    }
+    
+    private func didToggleSelectionForTime() -> (Row) -> Void {
+        
+        return { row in
+            selectedTime = Int(row.text)!
         }
     }
     

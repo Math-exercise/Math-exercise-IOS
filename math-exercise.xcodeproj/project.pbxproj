@@ -22,6 +22,7 @@
 		2107A1B5257E7385002AEF88 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107A1B4257E7385002AEF88 /* Operations.swift */; };
 		2112C1C1258430DE004C8AAB /* progress.json in Resources */ = {isa = PBXBuildFile; fileRef = 2112C1C0258430DE004C8AAB /* progress.json */; };
 		21598CFC2585868200912A72 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21598CFB2585868200912A72 /* SettingsViewController.swift */; };
+		21598D182586DB1400912A72 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21598D172586DB1400912A72 /* ResultViewController.swift */; };
 		5C93C708BCE1272861364783 /* Pods_math_exercise_math_exerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFC2D4E47EC980DEEC780CF /* Pods_math_exercise_math_exerciseUITests.framework */; };
 		87C55E74217BAF3D1DBB9090 /* Pods_math_exerciseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A829059C4583D48843F66605 /* Pods_math_exerciseTests.framework */; };
 		91434062B10C8415963B9BB9 /* Pods_math_exercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08739AC5F5BB31824DEA0261 /* Pods_math_exercise.framework */; };
@@ -68,6 +69,7 @@
 		2107A1B4257E7385002AEF88 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 		2112C1C0258430DE004C8AAB /* progress.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = progress.json; sourceTree = "<group>"; };
 		21598CFB2585868200912A72 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		21598D172586DB1400912A72 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		21CD660FBB0B011B9B03A04B /* Pods-math-exercise-math-exerciseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-math-exercise-math-exerciseUITests.debug.xcconfig"; path = "Target Support Files/Pods-math-exercise-math-exerciseUITests/Pods-math-exercise-math-exerciseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DFC2D4E47EC980DEEC780CF /* Pods_math_exercise_math_exerciseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_math_exercise_math_exerciseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A372243B50C2E86BB3FD6B05 /* Pods-math-exerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-math-exerciseTests.debug.xcconfig"; path = "Target Support Files/Pods-math-exerciseTests/Pods-math-exerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				2107A1AC257E726D002AEF88 /* CalculationViewController.swift */,
 				2107A1B4257E7385002AEF88 /* Operations.swift */,
 				138DAA1F25838B8A00E6384F /* QuizViewController.swift */,
+				21598D172586DB1400912A72 /* ResultViewController.swift */,
 				1352C04B257E696D00A0E385 /* Main.storyboard */,
 				21598CFB2585868200912A72 /* SettingsViewController.swift */,
 				2112C1C0258430DE004C8AAB /* progress.json */,
@@ -433,6 +436,7 @@
 				2107A1AD257E726D002AEF88 /* CalculationViewController.swift in Sources */,
 				1352C046257E696D00A0E385 /* AppDelegate.swift in Sources */,
 				2107A1B5257E7385002AEF88 /* Operations.swift in Sources */,
+				21598D182586DB1400912A72 /* ResultViewController.swift in Sources */,
 				1352C048257E696D00A0E385 /* SceneDelegate.swift in Sources */,
 				2107A1A8257E7199002AEF88 /* DifficultyViewController.swift in Sources */,
 				138DAA2925839A4800E6384F /* RadioButton.swift in Sources */,
