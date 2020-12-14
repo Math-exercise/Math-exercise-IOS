@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>05E0EE33-F9AF-4A2F-B3B3-E3B02B1A6EB4</key>
+		<key>0A043F72-C5B4-4936-9366-CAB08EE41ED9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>05E0EE33-F9AF-4A2F-B3B3-E3B02B1A6EB4.xcactivitylog</string>
+			<string>0A043F72-C5B4-4936-9366-CAB08EE41ED9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629514070.79357195</real>
+			<real>629593622.67753303</real>
 			<key>timeStoppedRecording</key>
-			<real>629514136.88795495</real>
+			<real>629593626.92804205</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>05E0EE33-F9AF-4A2F-B3B3-E3B02B1A6EB4</string>
+			<string>0A043F72-C5B4-4936-9366-CAB08EE41ED9</string>
 		</dict>
-		<key>0708A361-BB60-408D-BCB3-FBEB6CC80D61</key>
+		<key>13AB502D-2150-4F9F-8C5D-A559078B5A4B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0708A361-BB60-408D-BCB3-FBEB6CC80D61.xcactivitylog</string>
+			<string>13AB502D-2150-4F9F-8C5D-A559078B5A4B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629513771.71126795</real>
+			<real>629596393.52196801</real>
 			<key>timeStoppedRecording</key>
-			<real>629513802.43023503</real>
+			<real>629596439.75640094</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>0708A361-BB60-408D-BCB3-FBEB6CC80D61</string>
+			<string>13AB502D-2150-4F9F-8C5D-A559078B5A4B</string>
 		</dict>
-		<key>0BFBF6F5-04AD-45B7-9ED5-F36DEB42AE96</key>
+		<key>25D44BA6-77C3-43C1-A615-AF272DCEDDE2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0BFBF6F5-04AD-45B7-9ED5-F36DEB42AE96.xcactivitylog</string>
+			<string>25D44BA6-77C3-43C1-A615-AF272DCEDDE2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629506602.20381999</real>
+			<real>629594528.44487</real>
 			<key>timeStoppedRecording</key>
-			<real>629507511.20678198</real>
+			<real>629594596.45889294</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>0BFBF6F5-04AD-45B7-9ED5-F36DEB42AE96</string>
+			<string>25D44BA6-77C3-43C1-A615-AF272DCEDDE2</string>
 		</dict>
-		<key>13BC7AF7-C2E8-4E9B-BDF4-34D3D7BFF875</key>
+		<key>3F575264-BB03-463F-9BF5-BBC727D6661E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>13BC7AF7-C2E8-4E9B-BDF4-34D3D7BFF875.xcactivitylog</string>
+			<string>3F575264-BB03-463F-9BF5-BBC727D6661E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629512065.47895002</real>
+			<real>629593393.91628504</real>
 			<key>timeStoppedRecording</key>
-			<real>629512098.714818</real>
+			<real>629593409.98584294</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>13BC7AF7-C2E8-4E9B-BDF4-34D3D7BFF875</string>
+			<string>3F575264-BB03-463F-9BF5-BBC727D6661E</string>
 		</dict>
-		<key>158F8B05-EC19-4025-B30B-2A645D2F8B64</key>
+		<key>40C8C706-86F3-4249-8013-C92ECE7DB0F5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>158F8B05-EC19-4025-B30B-2A645D2F8B64.xcactivitylog</string>
+			<string>40C8C706-86F3-4249-8013-C92ECE7DB0F5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629514852.09201598</real>
+			<real>629593790.73899102</real>
 			<key>timeStoppedRecording</key>
-			<real>629514898.29148602</real>
+			<real>629594329.31354702</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>158F8B05-EC19-4025-B30B-2A645D2F8B64</string>
+			<string>40C8C706-86F3-4249-8013-C92ECE7DB0F5</string>
 		</dict>
-		<key>1D4341D7-B546-4949-B4FD-A2BF44A2A04A</key>
+		<key>5E5DC14F-6400-4CF3-9167-8D361183AF16</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1D4341D7-B546-4949-B4FD-A2BF44A2A04A.xcactivitylog</string>
+			<string>5E5DC14F-6400-4CF3-9167-8D361183AF16.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629514684.31599998</real>
+			<real>629594333.77103102</real>
 			<key>timeStoppedRecording</key>
-			<real>629514768.06468201</real>
+			<real>629594366.33742094</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>1D4341D7-B546-4949-B4FD-A2BF44A2A04A</string>
+			<string>5E5DC14F-6400-4CF3-9167-8D361183AF16</string>
 		</dict>
-		<key>242157F2-B0F9-4621-86E3-54B96AF113BB</key>
+		<key>8024B806-EC01-4618-892F-39394668BB05</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>242157F2-B0F9-4621-86E3-54B96AF113BB.xcactivitylog</string>
+			<string>8024B806-EC01-4618-892F-39394668BB05.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629514139.99463105</real>
+			<real>629596456.31519496</real>
 			<key>timeStoppedRecording</key>
-			<real>629514171.085482</real>
+			<real>629596731.96306396</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>242157F2-B0F9-4621-86E3-54B96AF113BB</string>
+			<string>8024B806-EC01-4618-892F-39394668BB05</string>
 		</dict>
-		<key>271F7424-393A-4720-B9BF-94DC461828B2</key>
+		<key>85BE5C89-4808-4472-961B-2081C8712357</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>271F7424-393A-4720-B9BF-94DC461828B2.xcactivitylog</string>
+			<string>85BE5C89-4808-4472-961B-2081C8712357.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629515015.499421</real>
+			<real>629596949.736359</real>
 			<key>timeStoppedRecording</key>
-			<real>629515066.83990598</real>
+			<real>629597002.36657</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>271F7424-393A-4720-B9BF-94DC461828B2</string>
+			<string>85BE5C89-4808-4472-961B-2081C8712357</string>
 		</dict>
-		<key>29531729-7270-4A79-BC7D-EFA5F135BCA5</key>
+		<key>8DF7F181-636F-4448-974C-95AFC9F6E76B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>29531729-7270-4A79-BC7D-EFA5F135BCA5.xcactivitylog</string>
+			<string>8DF7F181-636F-4448-974C-95AFC9F6E76B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,455 +304,13 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629515584.07378697</real>
+			<real>629596253.57886803</real>
 			<key>timeStoppedRecording</key>
-			<real>629515606.63750994</real>
+			<real>629596390.82684004</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>29531729-7270-4A79-BC7D-EFA5F135BCA5</string>
-		</dict>
-		<key>2AF882B9-5D8F-4FCD-B491-9D618E6D51AC</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>2AF882B9-5D8F-4FCD-B491-9D618E6D51AC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629514960.14174998</real>
-			<key>timeStoppedRecording</key>
-			<real>629515014.301597</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>2AF882B9-5D8F-4FCD-B491-9D618E6D51AC</string>
-		</dict>
-		<key>2FAD4AF5-A144-43DE-A883-03C799563D42</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>2FAD4AF5-A144-43DE-A883-03C799563D42.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629490238.16492605</real>
-			<key>timeStoppedRecording</key>
-			<real>629490279.59388006</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>2FAD4AF5-A144-43DE-A883-03C799563D42</string>
-		</dict>
-		<key>302A3FFF-0D03-4C07-9705-E70649510860</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>302A3FFF-0D03-4C07-9705-E70649510860.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629489141.91547704</real>
-			<key>timeStoppedRecording</key>
-			<real>629489145.79776502</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>302A3FFF-0D03-4C07-9705-E70649510860</string>
-		</dict>
-		<key>41B50F09-B670-4AA9-A573-727640E93A02</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>41B50F09-B670-4AA9-A573-727640E93A02.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629510479.42074704</real>
-			<key>timeStoppedRecording</key>
-			<real>629510753.64382899</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>41B50F09-B670-4AA9-A573-727640E93A02</string>
-		</dict>
-		<key>46D34FA2-DE44-4301-A8F6-C8E32B893F5B</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>46D34FA2-DE44-4301-A8F6-C8E32B893F5B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629514769.34363902</real>
-			<key>timeStoppedRecording</key>
-			<real>629514800.49391901</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>46D34FA2-DE44-4301-A8F6-C8E32B893F5B</string>
-		</dict>
-		<key>483CCC1D-6EDC-4C0E-BDEB-04C94974F994</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>483CCC1D-6EDC-4C0E-BDEB-04C94974F994.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629513737.95834994</real>
-			<key>timeStoppedRecording</key>
-			<real>629513739.56316698</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>483CCC1D-6EDC-4C0E-BDEB-04C94974F994</string>
-		</dict>
-		<key>4ABEF796-E84E-4410-81EF-A0D20FBC9558</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>4ABEF796-E84E-4410-81EF-A0D20FBC9558.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629499873.17435098</real>
-			<key>timeStoppedRecording</key>
-			<real>629500829.07311499</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>4ABEF796-E84E-4410-81EF-A0D20FBC9558</string>
-		</dict>
-		<key>4E542F4E-FA8E-4B4A-9C21-C65F15C52F0A</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>4E542F4E-FA8E-4B4A-9C21-C65F15C52F0A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629514180.45871198</real>
-			<key>timeStoppedRecording</key>
-			<real>629514209.90981901</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>4E542F4E-FA8E-4B4A-9C21-C65F15C52F0A</string>
-		</dict>
-		<key>6CC3837D-31DB-47CA-8BC1-FBAB20D89AF5</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>6CC3837D-31DB-47CA-8BC1-FBAB20D89AF5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629490386.58753598</real>
-			<key>timeStoppedRecording</key>
-			<real>629499872.36748004</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>6CC3837D-31DB-47CA-8BC1-FBAB20D89AF5</string>
-		</dict>
-		<key>6CF59204-4A68-43ED-A610-D0FCC605A3BE</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>6CF59204-4A68-43ED-A610-D0FCC605A3BE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629514900.04988801</real>
-			<key>timeStoppedRecording</key>
-			<real>629514958.88861704</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>6CF59204-4A68-43ED-A610-D0FCC605A3BE</string>
-		</dict>
-		<key>6D5DF9EE-C8B0-4102-AADA-79110AFE2733</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>6D5DF9EE-C8B0-4102-AADA-79110AFE2733.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629515279.42053699</real>
-			<key>timeStoppedRecording</key>
-			<real>629515367.96919799</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>6D5DF9EE-C8B0-4102-AADA-79110AFE2733</string>
-		</dict>
-		<key>71EEC0A5-81A2-4D14-A052-69F37AE4A793</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>71EEC0A5-81A2-4D14-A052-69F37AE4A793.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629510306.45613396</real>
-			<key>timeStoppedRecording</key>
-			<real>629510342.03068495</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>71EEC0A5-81A2-4D14-A052-69F37AE4A793</string>
-		</dict>
-		<key>8A212792-4DC7-48BE-BB3B-8E25A8BEB213</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>8A212792-4DC7-48BE-BB3B-8E25A8BEB213.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629511770.77288997</real>
-			<key>timeStoppedRecording</key>
-			<real>629511877.667117</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>8A212792-4DC7-48BE-BB3B-8E25A8BEB213</string>
+			<string>8DF7F181-636F-4448-974C-95AFC9F6E76B</string>
 		</dict>
 		<key>99FBC444-9C1B-49F4-A49C-AEC099E6A2D8</key>
 		<dict>
@@ -788,7 +346,7 @@
 			<key>uniqueIdentifier</key>
 			<string>99FBC444-9C1B-49F4-A49C-AEC099E6A2D8</string>
 		</dict>
-		<key>B2BBAC50-C793-4BC6-8C21-A462A0F24ECB</key>
+		<key>9C5D3862-8EBC-4F5E-B72A-1CA6972CD88B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -797,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B2BBAC50-C793-4BC6-8C21-A462A0F24ECB.xcactivitylog</string>
+			<string>9C5D3862-8EBC-4F5E-B72A-1CA6972CD88B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -814,15 +372,15 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629512190.07818305</real>
+			<real>629594386.03571498</real>
 			<key>timeStoppedRecording</key>
-			<real>629512211.53533804</real>
+			<real>629594401.66660094</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>B2BBAC50-C793-4BC6-8C21-A462A0F24ECB</string>
+			<string>9C5D3862-8EBC-4F5E-B72A-1CA6972CD88B</string>
 		</dict>
-		<key>D847F087-5CD3-4ABD-9BF6-2726C3668DF4</key>
+		<key>FEED321B-D1BA-4CA9-82A8-81831405177B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -831,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D847F087-5CD3-4ABD-9BF6-2726C3668DF4.xcactivitylog</string>
+			<string>FEED321B-D1BA-4CA9-82A8-81831405177B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -848,149 +406,13 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629514033.42934406</real>
+			<real>629593636.91396105</real>
 			<key>timeStoppedRecording</key>
-			<real>629514065.13864601</real>
+			<real>629593705.48045695</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>D847F087-5CD3-4ABD-9BF6-2726C3668DF4</string>
-		</dict>
-		<key>DCE832A7-C9EA-4715-8026-ADEB15591395</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>DCE832A7-C9EA-4715-8026-ADEB15591395.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629515092.26489604</real>
-			<key>timeStoppedRecording</key>
-			<real>629515139.16074896</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>DCE832A7-C9EA-4715-8026-ADEB15591395</string>
-		</dict>
-		<key>DDBAE60F-2D69-4B2B-9C47-ACB2A6CF747A</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>DDBAE60F-2D69-4B2B-9C47-ACB2A6CF747A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629511909.05232096</real>
-			<key>timeStoppedRecording</key>
-			<real>629511953.44644499</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>DDBAE60F-2D69-4B2B-9C47-ACB2A6CF747A</string>
-		</dict>
-		<key>EBD3FA32-5AD4-49B6-9612-17844E40E757</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>EBD3FA32-5AD4-49B6-9612-17844E40E757.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629515461.70536399</real>
-			<key>timeStoppedRecording</key>
-			<real>629515544.35772705</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>EBD3FA32-5AD4-49B6-9612-17844E40E757</string>
-		</dict>
-		<key>FE8F7424-4E16-4FF2-9AE3-878EEE77BFCE</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FE8F7424-4E16-4FF2-9AE3-878EEE77BFCE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>math-exercise project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>math-exercise</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run math-exercise</string>
-			<key>timeStartedRecording</key>
-			<real>629511954.67666602</real>
-			<key>timeStoppedRecording</key>
-			<real>629512065.67601001</real>
-			<key>title</key>
-			<string>Run math-exercise</string>
-			<key>uniqueIdentifier</key>
-			<string>FE8F7424-4E16-4FF2-9AE3-878EEE77BFCE</string>
+			<string>FEED321B-D1BA-4CA9-82A8-81831405177B</string>
 		</dict>
 	</dict>
 </dict>

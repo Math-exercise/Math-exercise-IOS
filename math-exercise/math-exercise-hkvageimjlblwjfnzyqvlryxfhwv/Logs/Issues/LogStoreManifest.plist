@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>297D7A8F-37B6-4C56-8A8D-4B1CD3C745C7</key>
+		<key>6967C8FA-7F0F-464A-A941-EA32F6FA32EA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>297D7A8F-37B6-4C56-8A8D-4B1CD3C745C7.xcactivitylog</string>
+			<string>6967C8FA-7F0F-464A-A941-EA32F6FA32EA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>lottie-ios-dfnngmmwetzxvuaehlgwmdnifosg</string>
 			<key>timeStartedRecording</key>
-			<real>629507122.699911</real>
+			<real>629596447.03832197</real>
 			<key>timeStoppedRecording</key>
-			<real>629507123.26161098</real>
+			<real>629596448.12219703</real>
 			<key>title</key>
 			<string>Build target lottie-ios</string>
 			<key>uniqueIdentifier</key>
-			<string>297D7A8F-37B6-4C56-8A8D-4B1CD3C745C7</string>
+			<string>6967C8FA-7F0F-464A-A941-EA32F6FA32EA</string>
 		</dict>
-		<key>3D7136F8-FA6A-4D03-8F77-6E6B0C1B3408</key>
+		<key>769B155E-902F-42C3-9070-2D005DC054B2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,26 +43,26 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>3D7136F8-FA6A-4D03-8F77-6E6B0C1B3408.xcactivitylog</string>
+			<string>769B155E-902F-42C3-9070-2D005DC054B2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>signature</key>
-			<string>Pods-math-exercise-dfnngmmwetzxvuaehlgwmdnifosg</string>
+			<string>QuickTableViewController-dfnngmmwetzxvuaehlgwmdnifosg</string>
 			<key>timeStartedRecording</key>
-			<real>629489857.89737797</real>
+			<real>629596949.69848299</real>
 			<key>timeStoppedRecording</key>
-			<real>629489857.90282798</real>
+			<real>629596949.69865596</real>
 			<key>title</key>
-			<string>Build target Pods-math-exercise</string>
+			<string>Build target QuickTableViewController</string>
 			<key>uniqueIdentifier</key>
-			<string>3D7136F8-FA6A-4D03-8F77-6E6B0C1B3408</string>
+			<string>769B155E-902F-42C3-9070-2D005DC054B2</string>
 		</dict>
-		<key>5A01D536-D16E-4DC5-BD8B-9E42A7F73C38</key>
+		<key>9DD11E1E-CEB8-4D37-90A1-5E1CF5380EE6</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>5A01D536-D16E-4DC5-BD8B-9E42A7F73C38.xcactivitylog</string>
+			<string>9DD11E1E-CEB8-4D37-90A1-5E1CF5380EE6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,41 @@
 			<key>signature</key>
 			<string>math-exercise-bceanncrxziprfgsuvchpqlkbfie</string>
 			<key>timeStartedRecording</key>
-			<real>629515582.75464106</real>
+			<real>629596947.65495801</real>
 			<key>timeStoppedRecording</key>
-			<real>629515584.04618597</real>
+			<real>629596949.696491</real>
 			<key>title</key>
 			<string>Build target math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>5A01D536-D16E-4DC5-BD8B-9E42A7F73C38</string>
+			<string>9DD11E1E-CEB8-4D37-90A1-5E1CF5380EE6</string>
+		</dict>
+		<key>BDBEB079-4FEC-43D4-8BE6-9377CD210D1B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>BDBEB079-4FEC-43D4-8BE6-9377CD210D1B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-math-exercise-dfnngmmwetzxvuaehlgwmdnifosg</string>
+			<key>timeStartedRecording</key>
+			<real>629596448.12235403</real>
+			<key>timeStoppedRecording</key>
+			<real>629596448.12290597</real>
+			<key>title</key>
+			<string>Build target Pods-math-exercise</string>
+			<key>uniqueIdentifier</key>
+			<string>BDBEB079-4FEC-43D4-8BE6-9377CD210D1B</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
