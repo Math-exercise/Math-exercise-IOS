@@ -17,8 +17,11 @@ var vibration = true
 var checkSound = true
 var checkVibration = true
 
-let defaultSound = UserDefaults.standard
-let defaultVibration = UserDefaults.standard
+var defaultSound = UserDefaults.standard
+var defaultVibration = UserDefaults.standard
+var defaultNumber = UserDefaults.standard
+var defaultTime = UserDefaults.standard
+
 
 class SettingsViewController: QuickTableViewController {
     
@@ -30,6 +33,9 @@ class SettingsViewController: QuickTableViewController {
         print(defaultSound.bool(forKey:"Sound"))
         soundOn = defaultSound.bool(forKey: "Sound")
         vibration = defaultVibration.bool(forKey: "Vibration")
+        selectedTime = defaultTime.integer(forKey: "Time")
+        selectedNumberofQuestion = defaultNumber.integer(forKey: "Number")
+        
 
         tableContents = [
              Section(title: "Switch", rows: [
@@ -40,14 +46,14 @@ class SettingsViewController: QuickTableViewController {
 
 
              RadioSection(title: "Number of questions in Quiz", options: [
-               OptionRow(text: "10", isSelected: true, action: didToggleSelectionForNumber()),
-               OptionRow(text: "15", isSelected: false, action: didToggleSelectionForNumber()),
-               OptionRow(text: "20", isSelected: false, action: didToggleSelectionForNumber())
+               OptionRow(text: "10", isSelected: isSelectedForQuestion10(), action: didToggleSelectionForNumber()),
+               OptionRow(text: "15", isSelected: isSelectedForQuestion15(), action: didToggleSelectionForNumber()),
+               OptionRow(text: "20", isSelected: isSelectedForQuestion20(), action: didToggleSelectionForNumber())
              ]),
             RadioSection(title: "Time for questions", options: [
-              OptionRow(text: "10", isSelected: true, action: didToggleSelectionForTime()),
-              OptionRow(text: "15", isSelected: false, action: didToggleSelectionForTime()),
-              OptionRow(text: "20", isSelected: false, action: didToggleSelectionForTime())
+                OptionRow(text: "10", isSelected: isSelectedForTime10(), action: didToggleSelectionForTime()),
+              OptionRow(text: "15", isSelected: isSelectedForTime15(), action: didToggleSelectionForTime()),
+              OptionRow(text: "20", isSelected: isSelectedForTime20(), action: didToggleSelectionForTime())
             ]),
             Section(title: "Rate the app", rows: [
                     TapActionRow(text: "Rate!", action: toAppStore())
@@ -72,6 +78,7 @@ class SettingsViewController: QuickTableViewController {
         
         return { row in
             selectedNumberofQuestion = Int(row.text)!
+            defaultNumber.set(selectedNumberofQuestion, forKey: "Number")
         }
     }
     
@@ -79,6 +86,7 @@ class SettingsViewController: QuickTableViewController {
         
         return { row in
             selectedTime = Int(row.text)!
+            defaultTime.set(selectedTime, forKey: "Time")
         }
     }
     
@@ -102,7 +110,7 @@ class SettingsViewController: QuickTableViewController {
     }
     private func vibrationFunc() -> (Row) -> Void {
         
-        return{[weak self] row in
+        return{ row in
             if (checkVibration ){
                 vibration = false
                 checkVibration = false
@@ -130,6 +138,42 @@ class SettingsViewController: QuickTableViewController {
                 UIApplication.shared.open(url)
             }
         };
+    }
+    func isSelectedForTime10() -> Bool {
+        if selectedTime == 10 {
+            return true
+        }
+        return false
+    }
+    func isSelectedForTime15() -> Bool {
+        if selectedTime == 15 || defaultTime.integer(forKey: "Time") == 0{
+            return true
+        }
+        return false
+    }
+    func isSelectedForTime20() -> Bool {
+        if selectedTime == 20 {
+            return true
+        }
+        return false
+    }
+    func isSelectedForQuestion10() -> Bool {
+        if selectedNumberofQuestion == 10 {
+            return true
+        }
+        return false
+    }
+    func isSelectedForQuestion15() -> Bool {
+        if selectedNumberofQuestion == 15 || defaultTime.integer(forKey: "Number") == 0 {
+            return true
+        }
+        return false
+    }
+    func isSelectedForQuestion20() -> Bool {
+        if selectedNumberofQuestion == 20 {
+            return true
+        }
+        return false
     }
     
 

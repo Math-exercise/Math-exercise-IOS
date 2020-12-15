@@ -287,7 +287,7 @@ class CalculationViewController: UIViewController {
             animationViewLoading = .init(name: "progress")
             animationViewLoading!.frame = progressView.bounds
             animationViewLoading?.center = progressView.center
-            animationViewLoading!.animationSpeed = 0.04
+            animationViewLoading!.animationSpeed = 0.03
             self.view.addSubview(animationViewLoading!)
             animationViewLoading!.play()
             nextButton.isHidden = true
@@ -375,7 +375,7 @@ class CalculationViewController: UIViewController {
     @objc func eventWith(timer: Timer!) {
         counter += 1
        timerLabel.text = "\(counter)"
-        if counter == 15
+        if counter == selectedTime
         {
             timer.invalidate()
             print("huseyin")
@@ -391,6 +391,19 @@ class CalculationViewController: UIViewController {
         }
         
         
+    }
+    func animationSpeed(){
+        if selectedTime == 10{
+            animationViewLoading?.animationSpeed = 0.06
+
+        }
+        else if selectedTime == 15{
+            animationViewLoading?.animationSpeed = 0.04
+
+        }else{
+            animationViewLoading?.animationSpeed = 0.03
+
+        }
     }
     
     @IBAction func oneButton(_ sender: Any) {
