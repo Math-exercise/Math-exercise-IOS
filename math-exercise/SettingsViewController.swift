@@ -11,16 +11,26 @@ import QuickTableViewController
 var selectedNumberofQuestion = 10
 var selectedTime = 15
 
+
 var soundOn = true
 var vibration = true
+var checkSound = true
+var checkVibration = true
 
+let defaultSound = UserDefaults.standard
+let defaultVibration = UserDefaults.standard
 
 class SettingsViewController: QuickTableViewController {
-    var checkSound = true
-    var checkVibration = true
-
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(defaultSound.bool(forKey:"Sound"))
+        soundOn = defaultSound.bool(forKey: "Sound")
+        vibration = defaultVibration.bool(forKey: "Vibration")
+
         tableContents = [
              Section(title: "Switch", rows: [
                 SwitchRow(text: "Sound effects", switchValue: soundOn, action: soundFunc()
@@ -47,6 +57,7 @@ class SettingsViewController: QuickTableViewController {
 
         // Do any additional setup after loading the view.
     }
+   
     private func showAlert() -> (Row) -> Void {
         return { [weak self] _ in
           let alert = UIAlertController(title: "Action Triggered", message: nil, preferredStyle: .alert)
@@ -74,26 +85,34 @@ class SettingsViewController: QuickTableViewController {
     private func soundFunc() -> (Row) -> Void {
         
         return{ row in
-            if (self.checkSound){
+            if (checkSound){
                 soundOn = false
-                self.checkSound = false
+                checkSound = false
+                defaultSound.set(soundOn,forKey: "Sound")
+                
+
              }
             else{
                 soundOn = true
-                self.checkSound = true
+                checkSound = true
+                defaultSound.set(soundOn,forKey: "Sound")
+
             }
         }
     }
     private func vibrationFunc() -> (Row) -> Void {
         
         return{[weak self] row in
-            if (self!.checkVibration ){
+            if (checkVibration ){
                 vibration = false
-                self!.checkVibration = false
+                checkVibration = false
+                defaultVibration.set(vibration, forKey: "Vibration")
              }
             else{
                 vibration = true
-                self!.checkVibration = true
+                checkVibration = true
+                defaultVibration.set(vibration, forKey: "Vibration")
+
             }
             
             
