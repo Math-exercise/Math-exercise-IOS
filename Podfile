@@ -8,6 +8,7 @@ target 'math-exercise' do
   # Pods for math-exercise
 	pod 'lottie-ios'
 	pod 'QuickTableViewController'
+        pod 'Firebase/Analytics'
 
 
   target 'math-exerciseTests' do

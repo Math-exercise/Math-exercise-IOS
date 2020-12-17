@@ -2,16 +2,52 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>Lottie</string>
-	<string>QuartzCore</string>
-	<string>AppKit</string>
-	<string>QuickTableViewController</string>
-	<string>CoreGraphics</string>
-	<string>CoreText</string>
-	<string>XCTest</string>
-	<string>math</string>
-	<string>UIKit</string>
+	<string>GoogleMobileAds</string>
 	<string>AVFoundation</string>
+	<string>CommonCrypto</string>
+	<string>FirebasePerformance</string>
+	<string>FirebaseDynamicLinks</string>
+	<string>objc</string>
+	<string>FirebaseInstallations</string>
+	<string>GoogleUtilities</string>
+	<string>FirebaseAuth</string>
+	<string>Firebase</string>
+	<string>GoogleDataTransport</string>
+	<string>FirebaseInAppMessaging</string>
+	<string>FirebaseCore</string>
+	<string>FirebaseMessaging</string>
+	<string>FirebaseCrashlytics</string>
+	<string>sys</string>
+	<string>CoreTelephony</string>
+	<string>nanopb</string>
+	<string>FirebaseInstanceID</string>
+	<string>dispatch</string>
+	<string>FirebaseFirestore</string>
+	<string>FirebaseDatabase</string>
+	<string>FBLPromises</string>
+	<string>FirebaseRemoteConfig</string>
+	<string>CoreText</string>
+	<string>FirebaseMLCommon</string>
+	<string>Crashlytics</string>
+	<string>FirebaseMLVision</string>
+	<string>XCTest</string>
+	<string>WatchKit</string>
 	<string>Foundation</string>
+	<string>QuickTableViewController</string>
+	<string>QuartzCore</string>
+	<string>Security</string>
+	<string>AppKit</string>
+	<string>Fabric</string>
+	<string>Lottie</string>
+	<string>FirebaseMLModelInterpreter</string>
+	<string>math</string>
+	<string>netinet</string>
+	<string>FirebaseStorage</string>
+	<string>SystemConfiguration</string>
+	<string>CoreGraphics</string>
+	<string>FirebaseAnalytics</string>
+	<string>FirebaseAppDistribution</string>
+	<string>FirebaseFunctions</string>
+	<string>UIKit</string>
 </array>
 </plist>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1315048F2588354200395590 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1315048E2588354200395590 /* GoogleService-Info.plist */; };
 		133229342586DC5F00BEF43B /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 133229322586DC5E00BEF43B /* correct.mp3 */; };
 		133229352586DC5F00BEF43B /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 133229332586DC5F00BEF43B /* wrong.mp3 */; };
 		1352C046257E696D00A0E385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352C045257E696D00A0E385 /* AppDelegate.swift */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		08739AC5F5BB31824DEA0261 /* Pods_math_exercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_math_exercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1315048E2588354200395590 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		133229322586DC5E00BEF43B /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		133229332586DC5F00BEF43B /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		1352C042257E696D00A0E385 /* math-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "math-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +155,7 @@
 				1352C050257E696E00A0E385 /* LaunchScreen.storyboard */,
 				138DAA2825839A4800E6384F /* RadioButton.swift */,
 				1352C053257E696E00A0E385 /* Info.plist */,
+				1315048E2588354200395590 /* GoogleService-Info.plist */,
 			);
 			path = "math-exercise";
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				2112C1C1258430DE004C8AAB /* progress.json in Resources */,
 				133229352586DC5F00BEF43B /* wrong.mp3 in Resources */,
 				1352C04D257E696D00A0E385 /* Main.storyboard in Resources */,
+				1315048F2588354200395590 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
