@@ -3,9 +3,10 @@
 <plist version="1.0">
 <array>
 	<string>GoogleMobileAds</string>
+	<string>Cocoa</string>
 	<string>AVFoundation</string>
-	<string>CommonCrypto</string>
 	<string>FirebasePerformance</string>
+	<string>CommonCrypto</string>
 	<string>FirebaseDynamicLinks</string>
 	<string>objc</string>
 	<string>FirebaseInstallations</string>
@@ -17,6 +18,7 @@
 	<string>FirebaseCore</string>
 	<string>FirebaseMessaging</string>
 	<string>FirebaseCrashlytics</string>
+	<string>CoreData</string>
 	<string>sys</string>
 	<string>CoreTelephony</string>
 	<string>nanopb</string>
@@ -38,8 +40,8 @@
 	<string>Security</string>
 	<string>AppKit</string>
 	<string>Fabric</string>
-	<string>Lottie</string>
 	<string>FirebaseMLModelInterpreter</string>
+	<string>Lottie</string>
 	<string>math</string>
 	<string>netinet</string>
 	<string>FirebaseStorage</string>

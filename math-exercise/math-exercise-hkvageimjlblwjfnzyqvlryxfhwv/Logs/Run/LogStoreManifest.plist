@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>3AB9C501-BB32-46C3-B560-B7F76834DAF5</key>
+		<key>3F09DDD4-E9DE-4691-958A-0E729AFDD7C4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3AB9C501-BB32-46C3-B560-B7F76834DAF5.xcactivitylog</string>
+			<string>3F09DDD4-E9DE-4691-958A-0E729AFDD7C4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Run math-exercise</string>
 			<key>timeStartedRecording</key>
-			<real>629750616.56721497</real>
+			<real>630272900.34911501</real>
 			<key>timeStoppedRecording</key>
-			<real>629750701.43894899</real>
+			<real>630272944.53462899</real>
 			<key>title</key>
 			<string>Run math-exercise</string>
 			<key>uniqueIdentifier</key>
-			<string>3AB9C501-BB32-46C3-B560-B7F76834DAF5</string>
+			<string>3F09DDD4-E9DE-4691-958A-0E729AFDD7C4</string>
+		</dict>
+		<key>8A51796C-387B-4EB6-9436-9F2B0991A447</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8A51796C-387B-4EB6-9436-9F2B0991A447.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>math-exercise project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>math-exercise</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run math-exercise</string>
+			<key>timeStartedRecording</key>
+			<real>630151450.90292895</real>
+			<key>timeStoppedRecording</key>
+			<real>630151618.44933498</real>
+			<key>title</key>
+			<string>Run math-exercise</string>
+			<key>uniqueIdentifier</key>
+			<string>8A51796C-387B-4EB6-9436-9F2B0991A447</string>
 		</dict>
 	</dict>
 </dict>

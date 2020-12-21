@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1315048F2588354200395590 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1315048E2588354200395590 /* GoogleService-Info.plist */; };
+		132D9920258F48FD009D9778 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 132D991F258F48FD009D9778 /* GoogleService-Info.plist */; };
 		133229342586DC5F00BEF43B /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 133229322586DC5E00BEF43B /* correct.mp3 */; };
 		133229352586DC5F00BEF43B /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 133229332586DC5F00BEF43B /* wrong.mp3 */; };
 		1352C046257E696D00A0E385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352C045257E696D00A0E385 /* AppDelegate.swift */; };
@@ -50,7 +50,7 @@
 
 /* Begin PBXFileReference section */
 		08739AC5F5BB31824DEA0261 /* Pods_math_exercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_math_exercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1315048E2588354200395590 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		132D991F258F48FD009D9778 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		133229322586DC5E00BEF43B /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		133229332586DC5F00BEF43B /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		1352C042257E696D00A0E385 /* math-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "math-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,7 +155,7 @@
 				1352C050257E696E00A0E385 /* LaunchScreen.storyboard */,
 				138DAA2825839A4800E6384F /* RadioButton.swift */,
 				1352C053257E696E00A0E385 /* Info.plist */,
-				1315048E2588354200395590 /* GoogleService-Info.plist */,
+				132D991F258F48FD009D9778 /* GoogleService-Info.plist */,
 			);
 			path = "math-exercise";
 			sourceTree = "<group>";
@@ -213,6 +213,7 @@
 				1352C03F257E696D00A0E385 /* Frameworks */,
 				1352C040257E696D00A0E385 /* Resources */,
 				5C680C546951197C11F1E140 /* [CP] Embed Pods Frameworks */,
+				132D9970258F4A7F009D9778 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -315,7 +316,7 @@
 				2112C1C1258430DE004C8AAB /* progress.json in Resources */,
 				133229352586DC5F00BEF43B /* wrong.mp3 in Resources */,
 				1352C04D257E696D00A0E385 /* Main.storyboard in Resources */,
-				1315048F2588354200395590 /* GoogleService-Info.plist in Resources */,
+				132D9920258F48FD009D9778 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +337,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32121BFBF0038E5B3332A8D9 /* [CP] Check Pods Manifest.lock */ = {
+		132D9970258F4A7F009D9778 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		32121BFBF0038E5B3332A8D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -399,7 +417,7 @@
 		};
 		5C680C546951197C11F1E140 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -630,6 +648,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 4Q3JZC8T8R;
 				INFOPLIST_FILE = "math-exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -540,12 +540,13 @@ class CalculationViewController: UIViewController {
     }
     
     @IBAction func delButton(_ sender: Any) {
+        
+//                resultLabel.text!.remove(at: resultLabel.text!.index(before: resultLabel.text!.endIndex))
+            
         if resultLabel.text?.count != 0 && !checkClicking
-            {
-                resultLabel.text!.remove(at: resultLabel.text!.index(before: resultLabel.text!.endIndex))
-            }
-        
-        
+                    {
+                        resultLabel.text!.remove(at: resultLabel.text!.index(before: resultLabel.text!.endIndex))
+                    }
     }
     func playWrongSound() {
         guard let url = Bundle.main.url(forResource: "wrong", withExtension: "mp3") else { return }
